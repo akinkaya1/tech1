@@ -1,0 +1,108 @@
+
+
+
+3/23/2021 - ArrayList
+
+
+ARRAYLIST
+-Arrays in Java have fixed size and once the size of an array is declared, it’s not possible to change it
+
+-To handle this issue, we can use the ArrayList class. It allows us to create dynamic sized arrays
+
+-Unlike Arrays, ArrayLists can automatically adjust its capacity when we add or remove elements from it and  hence, ArrayLists are also known as dynamic arrays
+
+HOW TO CREATE ARRAYLIST
+-We first need to import the java.util.ArrayList 
+
+-Syntax:
+ArrayList<Type> myArrayList= new ArrayList<>();
+
+-Example:
+ArrayList<String> students= new ArrayList<>();
+List<String> languages= new ArrayList<>();
+
+
+
+
+
+What is ArrayList
+-Dynamic sized array - flexible sized array
+-It does not have fixed size like arrays
+-You can add or remove elements
+
+
+ArrayList<Type> vName = new ArrayList<>();
+List<Type> vName = new ArrayList<>();
+
+How to add an element to ArrayList?
+-add() method
+-add() method is overloaded
+1. add(data) -> This will add data to the end list
+2. add(index, data) -> this will add data at the specified index
+-if the given index is bigger than size of ArrayList, then we will get an exception. IndexOutOfBoundException 
+
+
+-addAll(collection) -> this will add multiple data at one time
+
+How to read data from ArrayList?
+-get(index) -> this will get data at given index
+-if the given index is bigger than size of ArrayList, then we will get an exception. IndexOutOfBoundException
+
+
+How to find size of ArrayList?
+-size() -> this will return how many elements we have in ArrayList
+
+How to change an element in an ArrayList?
+-set(index, data) -> this will change the element at given index to be new data provided
+
+
+How to see if ArrayList contains a specific element?
+-contains(data) -> this method will check if ArrayList has given data as an element and return a boolean
+
+How to find position of specific elements in an ArrayList?
+-indexOf(data) and lastIndexOf(data) -> these methods will return the position of given data in them. 
+-if given index is not found in the ArrayList, then tese methods will return -1
+
+
+How to print an ArrayList?
+System.out.println(nameOfList);
+Example: System.out.println(cars);
+
+
+remove(data) -> this will check if given data found as an element first. If the data found, it will remove the element and return true, else it will not remove anything and return false
+
+remove(index) -> this will take an int index as an argument and will remove the element at given position. It returns a String which the removed element
+
+if you try to remove an element with index that does not exist or bigger than the size of ArrayList, then you will get an exception. IndexOutOfBoundException
+
+removeAll(Collection) -> this method will take a Collection as an argument and will remove all the found matches from the list
+
+clear() -> this method will remove all elements from the list
+
+
+HOW WE CAN CONVERT ARRAY TO ARRAYLIST
+-it is very useful to store some data in array and convert this to ArrayList as you are eliminating so many lines of code to add()
+
+-to do that we can use Arrays.asList() method
+
+
+HOW TO SORT ARRAYLIST
+-We can sort an ArrayList with the help Collections class
+-Collections.sort(arrayList);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

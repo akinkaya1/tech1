@@ -1,0 +1,111 @@
+
+
+4/3/2021 - Object-Oriented Programming 9
+OOP Principles - Abstraction
+
+
+RECAP:
+
+1.Encapsulation
+2.Inheritance
+3.Abstraction
+4.Polymorphism
+
+
+1.Encapsulation: it is used to protect sensitive data from user
+
+-We hide data itself (private)
+-BUT, we provide setters and getters for instance variables to be manipulated
+
+HOW TO ACHIEVE ENCAPSULATION
+-make instance variable private
+-provide getters and setters
+
+NOTE: if you don't want users to set data, then do not provide setters for them to manipulate data.
+
+
+WHY WE USE  ENCAPSULATION?
+-Flexibility with getter and setter methods
+	Read-Only -> getter only
+	Read-Write -> getter and setter
+-Increasing security of the data-information	
+-Better control of data (instance variables)
+
+
+2. Inheritance: 
+A class can be extended by other subclasses and can use all its instance variables and methods
+-There is parent-child relationship
+What is Is-A-Relationship in Java?
+Is-A-Relationship = inheritance
+
+Chase is a Bank
+Citibank is a Bank
+
+
+-Sub class - child class
+-Super class - parent class - base class
+
+HOW TO ACHIEVE INHERITANCE?
+-we use extends keyword to create parent-child relationship bt classes
+
+Chase extends IndividualBanking extends Bank
+Citibank extends Bank
+
+
+-Child class can use parent class' instance variables and methods
+-BUT, only public and protected instance variables and methods can be used by child class
+
+
+RULE:
+-One parent class can be extended by many other child classes
+-BUT, one child class can extend to ONLY one parent class
+
+
+WHY WE USE INHERITANCE?
+-Code reusability
+-All child classes can use parent class attributes and methods
+
+
+3.Abstraction
+-2 ways to achieve abstraction in Java: abstract classes, interfaces
+-abstract classes or interfaces are created to be used by subclasses (child classes)
+
+NOTE:If you are not going to extend abstract class or implement interface, then there is no meaning of creating those abstract classes and interfaces
+
+abstract class -> this will definitely be parent to some other child classes
+
+Phone is extended by iPhone and Samsung
+
+
+-ABSTRACT CLASS RULES
+-Abstract class can be created by "abstract" keyword
+-Abstract class cannot be final 
+-Just like non-abstract classes, abstract class connot be private or protected. They can be only default or public
+-Abstract class cannot be instantiated - meaning, we cannot create object from abstract class
+-We can have all kind of methods we created in non-abstract class - meaning, void, return type, static, final
+-WE CAN ALSO CREATE ABSTRACT METHODS IN ABSTRACT CLASSES
+-Those abstract methods cannot be final and cannot be static
+-NON-ABSTRACT CLASS CANNOT HAVE ABSTRACT METHOD
+-Abstract class can have constructors and they might be used in child classes
+
+ABSTRACT METHOD:
+-It can be created ONLY in abstract classes and interfaces
+-A method that does not have body
+-The first non-abstract child class MUST implement all abstract methods from all abstract parents
+
+IMPLEMENTING A ABSTRACT METHOD
+-Creating a body for it - implementing a body in non-abstract child class
+-HOW TO DO: We use @Override annotation, and implement body
+
+
+
+
+
+
+
+
+
+
+
+
+

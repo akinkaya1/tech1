@@ -1,0 +1,15 @@
+
+Test Cases Writing
+3-29-2021
+
+How to decide which test cases will be automated?
+
+   System Architect, my developers and other testers from my team or other teams. In the test cases review based on the requirement we decide which test cases will be automated.
+
+   Example: If there is a captcha requires image validation  and your automation can not detect required images.
+
+Test  Cases process:
+
+   After the sprint planning meeting, I share the user stories with other testers in my team. Next, I start writing my test cases based on the requirements (acceptance criteria). Then, I have test review meeting. I mark the test cases if they are automatable or manual.
+
+   Based on that meeting I start writing my automation and I mark the test case status as in "Progress". After automation completed, I push my code and raise a MR (Merge Request). Now, I mark my test case as "On Review". At last, my MR is merged and I mark my Test Case as "Automated".  

@@ -1,0 +1,120 @@
+
+
+2/17/2021 - String methods
+
+String
+-String is a java Class that is located in java.lang package
+-String is a object data type - reference type - nonprimitive
+-String is used to store a sequence of characters
+-String can have numbers, letters, special characters and space
+
+-String s = "Lionel";
+-String s1;
+ s1 = "Cristiano";
+
+
+ String manipulation
+ -Changing the given string
+ -Play around the given string
+ -Convert string the way you are looking for
+ -modifying strings based on our need
+
+
+
+methods questions
+What does this method takes? arguments
+What does this method returns?
+
+NOTE: arguments are the parameters that we type inside the method (inside the paranthesis)
+
+String.valueOf(aBoolean);
+What does this method takes: aBoolean
+What does this method returns: String
+
+
+1.valueof(variable) (This is only for String.valueOf())
+-this method takes a variable which can be any primitive or some objects
+-it will return the string representation of that data type
+
+2.concat(stringVariable)
+-it takes a string
+-it returns a string
+
+
+3-equals(stringVariable)
+-it takes a string
+-it returns a boolean (true or false)
+
+Lionel = Ronaldo -> false
+A = B            -> false
+C = c            -> false
+123 = 123        -> true
+525 = 525#       -> false
+Java = JaVa      -> false
+
+
+INTERVIEW QUESTION!!!
+== vs equals() method
+
+== is going to check the values location
+location is where the value of string is stored in the memory
+
+equals() method is checking the values which is right way
+equals() method is more reliable
+
+DO NOT USE == EVER NEVER to compare strings if they are equal or not
+
+
+4. equalsIgnoreCase()
+-It compares 2 strings whether they are equal or not and return a boolean but it will ignore cases
+it takes a string
+it returns a boolean / true or false
+NOTE: it is pretty much same as equals() method but this will ignore the capital or lower cases
+
+					equals()	equalsIgnoreCase()
+HeLLO = hello   -> 	false 		true
+A = a 			->  false 		true
+Java = selenium ->  false 		false
+
+
+
+5. toLowerCase()
+-It will take string and return it back with all letters to be lower case
+-What it takes? it takes string
+-What it returns? it returns string
+NOTE: it does not take any arguments inside the paranthesis
+
+
+6. toUpperCase()
+-It will take string and return it back with all letters to be upper case
+-it takes a string
+-it returns a string
+NOTE: it does not take any arguments inside the paranthesis
+
+
+
+EXAMPLE TO MAKE 2 STRINGS EQUAL TO EACH OTHER
+
+1.TechGlobal
+2.TECHglobal
+
+1. by using equalIgnoreCase() method, those 2 strings will be equal and return true
+
+2.Convert those 2 strings into their lowercase style and compare. This will return true
+techglobal = techglobal
+
+3. Convert those 2 strings into their uppercase style and compare. This will return true
+TECHGLOBAL = TECHGLOBAL
+
+
+
+
+
+
+
+
+
+
+
+
+

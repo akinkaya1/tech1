@@ -1,0 +1,150 @@
+
+
+2/7/2021 - If else statements
+
+Relational Operators
+==
+it is used for comparison
+if both sides are same, then it will return true
+if both sides are not true, then it will return false
+
+EX/ 5  == 5 -> true
+EX/ 10 == 100 -> false
+
+NOTE: Difference = and == (equal and equal equal)
+= is used to assign values // int age = 35;
+== is used to compare values // age == 35 -> returns true
+
+
+
+Increment and decrement operators
+-Post increment -> var++; -> increase value now but assign after this line.
+
+-Post decrement -> var--; -> decrease value now but assign after this line.
+
+
+-Pre increment -> ++var; -> increase value now and also assign new value in this line.
+
+-Pre decrement -> --var; -> decrease value now and also assign new value in this line.
+
+
+NOTE: We will usually be using post-increment and post-decrement
+
+EX/ Post-increment
+int age = 25;
+
+System.out.println(age++); // 25
+
+System.out.println(age); // 26
+
+
+
+AND and OR operators - LOGICAL OPERATORS 
+-&& and operator
+-|| or operator
+
+
+! NOT OPERATOR
+
+!true  -> false
+!false -> true
+
+
+NOTE: Block
+Code inside the curly braces {}
+
+EX/
+if(condition) {  
+	//code to be executed
+ }
+
+EVEN NUMBERS
+-it is the number dividable by 2
+int number = 10;
+
+if(number % 2 == 0) {
+	then number is even
+}
+EX/ 0, 2, 4, 6, -8, -10
+
+ODD NUMBERS
+-it is the number that can not be divided by 2
+EX/ 1, 5, 9, 57, -129
+
+int number = 19;
+
+if(number % 2 != 0) {
+	then number is odd
+}
+
+9 % 2 = ?
+9 = 4*2 + 1  -> 1 is the remainder
+
+
+
+
+
+Nested if statement
+
+One if or else statements inside another if or else if statement
+In this case there will be inner and outer if else statements
+
+Syntax:
+if(condition1) {  
+      //code to be executed
+	if(condition2) {  
+	       //code to be executed
+	 }
+ }
+
+
+
+examGrade > 60 && examGrade < 71
+
+this condition is given us 2 requirements to be true!
+1. exam grade should be more than 60
+2. exam grade should be less than 71
+
+
+
+More than 60
+
+if it is not more than 60 then do not even check
+60 to 71
+70 to 81
+80 to 100
+
+if it is not more than 70 then do not even check
+70 to 81
+80 to 100
+
+
+
+INCLUSIVE and EXCLUSIVE EDGES with > <
+
+numbers from 10 to 20 - 10 and 20 included
+ 10, 11, 12 ,13 .... 19, 20
+
+ any number in this range => number >= 10 && number <= 20
+ any number in this range => number > 9 && number < 21
+
+
+if
+else if
+else if
+else
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

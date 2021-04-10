@@ -1,0 +1,118 @@
+
+
+2/10/2021 - If else statements continued
+
+- If else statements - conditional statements
+- They are used to control the flow of the program based on certain conditions
+
+Syntax:
+
+if(condition){
+	//execute a code if condition is true
+}
+
+System.out.println("....continue with program");
+
+
+Syntax:
+
+if(condition){
+	//execute a code if condition is true
+}
+else{
+	//execute this code if above condition is false
+}
+
+
+NOTE: One of the very common mistake that is done
+
+if(condition);{
+	//execute a code if condition is true
+}
+
+Do not use ; after your condition
+Because ; ends the statement
+
+
+
+NOTE: 
+int number = input.nextInt();
+input.nextLine();
+
+
+Whenever you used nextInt(), nextDouble(), next() etc
+Always give Scanner a next line with nextLine() method
+
+EXAMPLE:
+		Scanner input = new Scanner(System.in);
+        System.out.println("Please enter a number");
+        int number = input.nextInt();
+        input.nextLine();
+
+        System.out.println("Please enter your DOB"); // My DOB is 11/11/1990
+        String dateOfBirth = input.nextLine();
+
+        System.out.println();
+        System.out.println("Results");
+        System.out.println("The number entered is: " + number);
+        System.out.println("The DOB entered is: " + dateOfBirth);
+
+
+
+NOTE: if can be used without else
+BUT else can not be used without if
+
+Below code will not compile
+else{
+	//any code
+}
+
+
+
+IF ELSE SHORT CUT WITH ONE STATEMENTS
+
+		int number = 10;
+        
+        if(number > 0){
+            System.out.println("Number is positive");
+        }
+        else{
+            System.out.println("Number is not positive");
+        }
+        
+        /*
+        Instead of above statement, a short cut can be used
+        This can be done if there is only one statement in the if and else blocks
+         */
+
+        if(number > 0) System.out.println("Number is positive");
+        else System.out.println("Number is not positive");
+
+
+
+
+        DEBUG - TroubleShoot
+        -these terms are used for the way to find the issue
+        -You try to find the root cause for the issue
+        -Fix it or make sure it is fixed
+
+        HOW TO DEBUG OUR CODE?
+        1. put a break-point in the line that you want to see with your code
+        2.Instead of run, select debug for execution, this break-point is where my debug will start
+        3. My execution of code will stop at the line that I put break-point
+        4.After that, run your code line by line using Step Over button
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,97 @@
+
+
+
+3/20/2021 - Object-Oriented Programming 5
+Learning Object – Class
+
+CLASS: It is a template or blueprint where we can create objects from.
+
+OBJECT: It is an instance of a class. Many object can be created from same class
+
+CLASS MEMBERS:
+1. Fields - instance variables (features - attributes)
+2. Methods - functions (behavior) 
+
+METHOD OVERLOADING:
+-In Java, we are allowed create multiple methods with same name but this is possible only with different arguments
+-Either arguments data type could be different or how many arguments methods takes could be different
+
+private String print(String str){
+	return s;
+}
+
+//Compiler error - parameter is same as previous print() method
+protected void print(String s){
+	System.out.println(s);
+}
+
+
+final keyword: 
+-instance variables can be final - it means you need to give an initial to those final fields, and it can not be changed anywhere
+
+final int daysInAweek; // compiler error
+final int daysInAweek = 7;
+
+*** classes and methods can also be final and we will learn what happens if class or method becomes final
+
+static keyword:
+-instance variables and methods can be static -  it means, they can be called with class name and there is no need to create objects to call those. 
+-If we are trying to call non-static fields and methods, then we always need to create objects first.
+
+
+3. CONSTRUCTORS
+-Constructors special kind of methods that allow us to create objects and always used next to "new" keyword
+
+Cat cat = new Cat();
+
+Syntax:
+
+accessModifier className(){
+	
+}
+
+
+Example
+public Cat(){
+        // default constructor
+}
+
+
+NOTE: constructor name should always be same as className
+
+-When you create a new class, Java will always provide you default constructor
+-This default constructor is also known as zero-argument or none-argument constructor
+
+accessModifier className(){
+	
+}
+
+-You can also create custom constructors and overload the default constructor.
+-When you create a custom constructor, default one will be gone. However, if you need both, then you need to bring the default one explicitly.
+
+-CAN WE OVERLOAD OUR CUSTOM CONSTRUCTOR?
+-Yes, we can. We can have as many as required custom constructors.
+
+ public Cat(String name, int age){
+     // custom constructor that takes 2 arguments
+ }
+
+ public Cat(String name, int age, String color){
+     // custom constructor that takes 3 arguments
+ }
+
+
+Static vs non-static methods
+-Static methods can be called with class name and they cannot be called with objects
+
+-Non-static methods can only be called with objects and they cannot be called with class name
+
+
+
+
+
+
+
+
+
+

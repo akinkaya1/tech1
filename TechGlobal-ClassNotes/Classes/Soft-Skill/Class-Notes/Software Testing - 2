@@ -1,0 +1,46 @@
+Software Testing - 2
+3-15-2021 
+
+Smoke Testing: Checking the main fanctionality of the application. The scenarios are identified and the tests caces are automated. the test scenarios are executed on the Jenkins on daily bases.
+
+Sanity Test: You execute the test scenarios manualy afte the bug fix.
+They are not automated.
+
+Regression Testing:  There are several main fanctionalities that you autmate for running the test after the bug fix, before and after new deployment.
+
+deployment means that we have development, testing(stage), preprod(ProdAlpha), prod environments
+
+Sending the code from the dev environment to testing environment is called deployment.
+
+Verification: Checking the if the requirements are okay and flows make sense. Make sure that you have all the data that you need for testing.
+
+Validation: is to test the actual application if it matches with the requirements.
+
+System Test: On the system test we are checking HOW components are working as a whole unit.
+We test functional and non-functional part of the applicatin.
+
+E2E Testing: We test functionality of the application.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,110 @@
+
+
+
+2/28/2021 - Loops 3
+
+1.Conditional statements - if else - switch
+2.String methods - data manipulation
+3.Loops - saves a lot considering time and - less line of code
+4.Collections - Array , ArrayList, List, Map
+5.OOP concepts - Object Oriented Programming Concepts
+	a.encapsulation
+	b.inheritance
+	c.abstraction
+	d.polymorphism
+
+
+
+
+WHILE LOOP
+-Syntax:
+
+while(test condition){
+	//code block to be executed
+}
+
+-While loop is based on condition and it will execute the block of code while test condition true
+-it will break loop, whenever condition turns to false
+
+INFINITE LOOP: a loop will run forever
+while(true){
+	//run this code
+}
+
+
+
+while(false){
+	System.out.println("This is while loop running");
+}
+
+!false -> true
+!true -< false
+
+
+NOTE:
+I can run all the for loop programs in while loop
+
+
+for(int i = 0; i <= 10; i++){
+	//codes to run
+}
+
+
+int i = 0;
+while(i <= 10){
+	//codes to run
+	i++;
+}
+
+--But, there are some specific programs that uses while rather than for loop
+These are mostly the programs that we don't know the exact iteration number
+
+
+ITERATION: how many times loop will run
+
+
+DO WHILE LOOP
+
+while(test condition){
+	//code block to be executed
+}
+
+Syntax:
+
+do{
+	//code block to be executed
+}
+while(test condition);
+
+
+
+
+PSEUDO CODE for do while practice 1
+-Create a scanner object
+-Ask user to enter a number
+-Check the number if 10 or less or more
+-Ask user to enter numbers until user enters a number that is more than or equal to 10
+
+
+LOOP CONTROL STATEMENTS
+1. break;
+break is used to terminate the loop
+
+2. continue;
+continue is used to skip only current iteration if a specified condition occurs, and continues with the next iteration in the loop
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

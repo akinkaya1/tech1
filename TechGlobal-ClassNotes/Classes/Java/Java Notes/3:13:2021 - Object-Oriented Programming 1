@@ -1,0 +1,219 @@
+
+
+
+3/13/2021 - Object-Oriented Programming 1
+Learning Object – Class
+
+
+What kind of data types we have in Java?
+-Primitives types - byte, short, int, long, float, double, char, boolean
+
+-Non-primitives - Objects - Reference types
+String, Wrapper classes, Scanner, Random, Arrays, Date, Math, System
+
+
+-CLASS - What is a class?
+-Class is a blueprint or template from which objects can be created
+
+
+How to create a class?
+
+Syntax:
+
+public class Car{
+	
+}
+
+accessModifier class Car{
+	
+}
+
+Class -> Objects of class
+Human -> Boy, Girl, Man, Woman, Brother, Sister, Male, Female, Mariia
+
+public class Human{
+	
+}
+
+public class Test{
+	public static void main(String[] args){
+		Human mariia = new Human();
+
+	}
+}
+
+Fruit -> Apple, Orange, Banana, Strawberry, Watermelon
+
+attributes-> color, size
+functions -> taste, smell
+
+Student -> Person, Mariia, Bahar
+
+Car -> Mercedes, Audi
+attributes -> color, style, make, model, year, typeOfEngine
+functions  -> accelaration, move, brake, turn
+
+
+
+What is Object in Java
+-Object is an instance (result) of a class
+
+How to create an object of a class?
+-Random r = new Random();
+
+-ClassName objectName = new ClassName();
+
+Assume we have car class created as below:
+
+public class Car {
+	//data(fields) and methods(functions)
+}
+
+Then, we can create an object of Car class by using new keyword
+
+NOTE: new keyword is used to create objects in Java
+
+Example:
+
+Car mercedes = new Car();
+
+
+
+CLASS MEMBERS: fields/methods/constructors/blocks
+
+-Fields are also known as instance variables and defines all the attributes of the objects of that class
+EXAMPLE: color, make, model, year, style, engine
+WHAT IT HAS AS FEATURE?
+
+-Methods are also known as functions of the class and defines behaviors of the objects of that class
+EXAMPLE: move, brake, horn, signal
+WHAT IT DOES?
+
+Integer.MAX_VALUE; // the max value that integer has - field
+
+Integer.valueOf(str); // method
+
+
+-Constructors are kind of special methods and enable us to create objects of the class
+
+-Blocks are known as static and instance blocks and get executed first by JVM
+
+
+EXAMPLE:
+Create a class of Student
+
+Create instance variables as below:
+totalNumberOfOnlineStudents;
+totalNumberOfCampusStudents;
+firstName;
+lastName;
+gender;
+
+
+Create a new class to test Student class
+-Create 6 objects for each student we have
+-Define their features
+
+
+final instance variables in Java
+-Some attributes may have a static value that will never change
+
+-So, those final attributes of class can be defined with final keyword and cannot be modified in any class
+
+-If you don't want the ability to override existing values, declare the attribute as final
+
+-The final keyword is useful when you want a variable to always store the same value, like PI (3.14159...) or daysInAWeek (7)
+
+
+EXAMPLE:
+Create a class called Day
+Create instance variables as below
+
+totalDaysOfWeek;
+totalDaysOfYear;
+hoursInADay;
+
+totalNumberOfWeekDays; // 5
+totalNumberOfWeekendDays; // 2
+
+firstDayOfWeek;
+secondDayOfWeek;
+thirdDayOfWeek;
+fourthDayOfWeek;
+fifthDayOfWeek;
+sixthDayOfWeek;
+seventhDayOfWeek;
+
+
+What is class?
+-Blueprint from where object can be created
+-It is also known as template that defines all the attributes and functions of objects will be created from this class
+
+What is object?
+-Instance of a class
+
+If phone is class
+Then iPhone11, Samsung20Plus could be objects
+
+How to create classes and objects
+
+public class Phone {
+	
+}
+
+public class MyClass{
+	public static void main(String[] args){
+
+		Phone myPhone = new Phone();
+	}
+}
+
+
+Class members:
+1. Fields - instance variables -> attributes- features of class
+What it has?
+
+
+2. Methods - functions
+What it does?
+
+3. Constructors
+-They are special methods and used to create objects
+-Without constructors and new keyword, you can not create objects
+
+public Phone(){
+        // default constructor
+    }
+
+Phone myPhone = new Phone();
+
+Scanner scan = new Scanner(System.in);
+
+toLowerCase(), contains(str)
+
+
+4. Blocks
+
+
+Instance variables - fields
+
+HOW CAN WE CALL INSTANCE VARIABLES?
+
+-Instance variables - fields can be static or non-static
+Static instance variables can be accesses with class name right away. You don't need to create objects for those.
+
+int max = Integer.MAX_VALUE;
+
+-Instance variables - fields can be final or not final
+final instance variables needs be initialized and cannot be changed anywhere
+non-final variables can be manipulated 
+
+if you initialize non-final instance variables, they will have default value for each object to be created in the future
+
+
+
+
+
+
+
+

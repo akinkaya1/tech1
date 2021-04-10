@@ -1,0 +1,70 @@
+
+
+1/26/2021 - Java Primitives continued
+
+-8 different primitive data types
+-byte, short, int, long, float, double, char, boolean
+
+BYTE
+-it takes 1 byte which means 8 bits
+-min value -128
+-max value 127
+
+How can I read min/max value of a byte from Byte class?
+		byte min = Byte.MIN_VALUE; //-128
+        byte max = Byte.MAX_VALUE; //127
+
+SHORT
+-it takes 2 bytes which means 16 bits
+-min value of short is -32768
+-max value of short is 32767
+
+System.out.println("Min value of short is: " + Short.MIN_VALUE);
+System.out.println("Max value of short is: " + Short.MAX_VALUE);
+
+
+
+NOTE:
+-reduntant code = never used code in your program
+
+NOTE: use this website for any issue that you get with your code
+-stackoverflow
+-huge community that answers tech issues
+-GOOGLE is our best friend to ask questions
+-Ask Google how to?
+
+
+NOTE: we can make numbers more readable by using "_" underscore
+EX/ int number = 5000000; or int number = 5_000_000; 
+both will compile, run
+
+
+INT 
+-int stands for integer
+-The min value of int variable can be -2147483648
+-The max value of int variable can be 2147483647
+
+LONG
+-It takes 64 bits or 8 bytes of memory
+-We have to explicitly put "L" to the end of long numbers
+EX/ long number = 387246283672L;
+
+
+FLOATING POINT TYPES = FLOAT AND DOUBLE
+-float and double are used for floating points, decimal numbers
+-these are to handle decimals
+-we have to explicitly tell the float
+	EX/ float f = 45.99F; or float f = 45.99f;
+-double is the mostly preferred one
+
+
+CHAR
+-is a primitive data type that stores only 1 character
+-In a program, a char is always surrounded with apostrophes (single quotations) ‘’ on both sides
+
+EX/ char c = 'b'; or char c2 = '&';
+
+
+
+
+

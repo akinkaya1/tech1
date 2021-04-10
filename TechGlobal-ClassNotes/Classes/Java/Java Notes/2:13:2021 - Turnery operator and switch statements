@@ -1,0 +1,58 @@
+
+
+2/13/2021 - Turnery operator and switch statements
+-Turnery operator can be used only instead of if-else statements
+-It can not be used for if-else if-else stamements
+-It can not be used for nested if-else statements
+
+		/* instead of if else, ternary operator can be used
+        if(number1 > number2){
+            distance = number1 - number2;
+        }
+        else{
+            distance = number2 - number1;
+        }
+        */
+        
+        distance = number1 > number2 ? number1 - number2 : number2 - number1;
+
+
+ -> Comparing String
+ == can not be used for equal when it is String
+equals()
+
+equalsIgnoreCase()
+
+
+SWITCH Statements
+-It is kind of an if else statement but based on "cases" 
+
+Syntax:
+switch(expression) { 
+	case value: 
+	// code to be executed
+
+break; // optional
+
+	case value : 
+	// code to be executed
+
+break; // optional
+
+default: // Optional 
+
+	// code to be executed
+}
+
+
+NOTE: We usually use switch statements if we know the certain number of cases such as A week has 7 days and each day can be considered as a case (So, 7 cases)
+
+Otherwise we would use if-else if-else statements
+
+NOTE: Switch is faster than if-else if-else statements
+
+
+
+
+
+

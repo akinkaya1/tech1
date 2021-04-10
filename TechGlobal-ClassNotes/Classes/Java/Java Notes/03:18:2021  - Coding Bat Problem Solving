@@ -1,0 +1,30 @@
+
+
+03/18/2021  - Coding Bat Problem Solving
+
+1. First, check method and decide if it is void or return type
+if it is return type, then there should always be return at the end of method
+
+
+2. Second, check if method is taking any argument
+It means, you will use this argument in your method
+
+3. Read requirements very carefully
+
+4. Think about PSEUDO CODE and how you can solce the problem
+
+
+NOTE: DO NOT ever never check solution
+NOTE: DO NOT solve problems in IntelliJ
+
+
+
+
+
+
+
+
+
+
+
+

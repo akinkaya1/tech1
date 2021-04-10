@@ -1,0 +1,196 @@
+
+
+4/4/2021 - Object-Oriented Programming 10
+OOP Principles - Abstraction - Interface
+
+RECAP:
+
+OOP Principles
+1.Encapsulation
+2.Inheritance
+3.Abstraction
+4.Polymorphism
+
+
+1. Encapsulation: It is used to protect data - information
+HOW: we do instance variables private, and provide public getters and setters
+
+Advantage: 
+-hide data from user
+-flexibility to provide read-write options with getters and setters
+
+
+2. Inheritance: Is a relationship created bt sub and super classes
+HOW: it is achieved with "extends" keyword
+
+Advantage:
+-protected and public fields and methods of parent class can be used by child class
+-code reusability
+
+
+3. Abstraction: 
+-another way of doing inheritance
+-In abstraction, we can have also abstract methods in the abstract class
+-Process of hiding implementation of methods, and those methods will be implemented in child classes
+
+HOW: 2 ways to achieve abstraction - abstract classes and interface
+1. ABSTRACT CLASS
+-make class abstract
+-extend this abstract class by other child classes
+-@Override all abstract methods in child classes (COMPILER ERROR)
+
+
+RULES:
+-A class can be abstract by using "abstract" keyword
+public abstract class Animal{
+	//this is an abstract class
+}
+
+-Abstract class CANNOT be private or protected
+-Abstract class CAN ONLY be default or public
+-Abstraction with inheritance which is "extends" keyword
+
+-Abstract class CANNOT be final
+-Non-abstract class CAN be final and it means it cannot be extended
+-ABSTRACT CLASS CANNOT BE INSTANTIATED - we cannot create object from abstract class
+-We can have both abstract and non-abstract methods in abstract classes
+
+-Abstract class can have default and custom constructors - they might be used by subclasses
+
+-Abstract methods CANNOT have body
+-Abstract methods CANNOT be final
+-Abstract methods CANNOT be static
+-Abstract methods only concerned with WHAT TO DO, it is not concern HOW TO DO. That's why, they don't have body. These methods will be overridden in child classes and body will be provided in child classes (HOW TO DO)
+-First non-abstract child will implement body for the all abstract methods that are from all abstract parent classes
+
+-Inheritting from a abstract or non-anstract class can be done with "extends" keyword
+-We can ONLY extend to one parent class - meaning- child class can extend to one parent ONLY - this is known as single inheritance
+
+
+2. INTERFACE
+-It is another way of achieving abstraction
+-Multiple inheritance is ONLY possible with Interfaces
+-Interfaces are used to define additional functions to classes
+-An interface can be implemented by a class using "implements" keyword
+-A class can implement multiple interfaces bu using comma between interface names
+-An interface CANNOT extend to a class
+-An interface can extend to another interface by using "extends" keyword
+-An interface can extend to multiple interfaces by using comma between multiple interface names
+
+
+- interface methods are "public abstract" by default
+- interface itself can ONLY be default and public just like classes
+- INTERFACES CANNOT BE INSTANTIATED and CANNOT HAVE CONSTRUCTORS
+- We can have only "public static final" attributes in interfaces - meaning - fields are "public static final" by default 
+
+
+
+WHAT KIND OF METHODS WE CAN HAVE IN INTERFACE?
+1. Abstract methods: Interfaces usually have ONLY  abstract methods and they are public abstract by default
+2. Default methods: Interfaces can have methods that has body by using default keyword 
+NOTE: default keyword is not defining access modifier here!!!
+3. Static method: Interfaces can have regular static methods that has body
+NOTE: These methods are always public as well and can be called with interface name
+
+
+
+			Class 			Abstract Class 			Interface
+final 		Yes 			NO 						NO
+static 		No 				NO 						NO
+private 	NO 				NO 						NO
+default 	YES 			YES 					YES
+protected 	NO 				NO 						NO
+public 		YES 			YES 					YES	
+
+final keyword
+- final instance variables: you have to give an initial value and initial value cannot be changed
+- final method: this method can NEVER be overridden
+- final class: this class cannot be extended - meaning - this class CAN NEVER be parent 
+
+static keyword
+-static instance variables: this fields are belonging to class and can be called with className right away. We don't need to create object to call them.
+-static methods: this methods are belonging to class and can be called with className right away. We don't need to create object to call them.
+
+-static blocks: it runs once, before everything else when an object of class is created
+
+
+
+NOTE:
+-In Java, there are inner classes
+-It means, we can create a class in another class
+-Inner class is a member of outer class just like all other methods and instance variables
+-So, this inner class can ALSO be static 
+
+
+What an inner can do?
+-Everthing a regular class do
+++++It can be static
+
+
+
+
+4.Polymorphism
+-Many forms - many shapes
+
+Siyami -> Cat -> Feline -> Animal -> Object
+
+Sky is a Siyami
+Sky is a Cat 
+Sky is a Feline
+Sky is an Animal
+Sky is an Object
+
+iPhone6 -> iPhone -> Phone -> Device -> Object
+
+iPhone6 is a iPhone
+iPhone6 is a Phone
+iPhone6 is a Device
+iPhone6 is an Object
+
+Reference type <- Siyami sky =  new Siyami();  -> Object type
+
+Siyami sky = new Siyami();
+Animal sky = new Siyami(); // upcasting
+Object sky = new Siyami(); // upcasting
+
+iPhone6 myPhone = (iPhone6)new Phone();// down-casting
+
+when reference is parent and object is child -> up-casting
+when reference is child and object is parent -> down-casting
+
+
+
+REAL EXAMPLE:
+public class ArrayList<E> extends AbstractList<E>
+        implements List<E>, RandomAccess, Cloneable, java.io.Serializable
+
+ArrayList<String> names = new ArrayList<>();
+List<String> names = new ArrayList<>();
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

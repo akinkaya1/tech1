@@ -1,0 +1,178 @@
+
+
+2/16/2021 - Casting in Java Continued
+
+
+RECAP:
+
+Casting is converting (casting) one type of primitive into another type of primitive
+
+Objects can not be casted but converted
+
+NOTE: boolean primitive data type can not be casted to any other primitive
+
+There are 2 types of casting
+Ex; 
+
+byte age = 25;
+
+byte < int and that is why this is an implicit casting
+
+int newAge = age; -> implicit casting, upcasting, widening
+
+
+Ex;
+
+double balance = 50;
+
+double > float and that is why this is an explicit casting
+
+float newBalance = (float) balance; -> explicit casting, 												downcasting, narrowing
+
+
+CASTING with char
+-Casting with char can happen and it will return characters decimal value from ASCII
+
+
+
+primitive to primitive -> CASTING - converting
+primitive to objects -> Converting (primitives to String)
+objects to primitives -> Converting (String to primitives)
+objects to objects -> Converting
+
+
+Implicit casting flow
+byte - short - char - int - long - float - double
+
+Explicit casting flow
+double - float - long - int - char - short - byte
+
+
+NOTE!!!!
+in java both side of the = sign should be same type
+
+int = int -> int age = 45;
+
+String = String -> String name = "Lionel";
+
+double = double -> double balance = 60.5;
+
+char = char -> char charName = 'X';
+
+
+CONVERTING primitives to string
+1. I can use + (concatenation) sign to convert primitives to String
+EX/ 
+int number = 100;
+String str = number + "";
+
+2.I can use valueOf() to convert any primitive to String
+boolean check = true;
+String str = String.valueOf(check);
+
+
+SPACE issue in coding
+
+abc d != abcd
+abcd  != abcd
+
+CONVERTING string to primitives
+-We can convert string to numeric data types ONLY IF string is holding numbers 
+-If String has any special characters and space or letters, then there will not be any compiler error but there will be runtime error
+NumberFormatException
+
+
+We can convert String to related primitive by using their Wrapper classes
+valueOf() and parseType() methods can be used for the conversion
+
+EXAMPLE:
+String str = “235”;
+int number = Integer.valueOf(str);   or int number = Integer.parseInt(str);
+
+-Difference between valueOf and parse methods? 
+
+valueOf() method returns an object -> Boolean, Integer, Byte
+parseInt() or parseBoolean returns primitive -> boolean
+
+With objects we can use Wrapper classes useful methods but we can not do same with primitives
+
+
+EX/
+String num = "1000";
+        
+Integer.valueOf(num); // Integer object
+Integer.parseInt(num); // int primitive
+
+
+WRAPPER CLASSES
+-Wrapper classes are object representation of primitives
+
+-For each primitive type, there is Wrapper class
+
+-Wrapper class names are usually same as with primitive data types but starts with upper case
+
+Primitive 	Wrapper Class
+byte 		Byte
+short 		Short
+int 		Integer
+long 		Long
+float 		Float
+double 		Double
+char 		Character
+boolean 	Boolean
+
+NOTE:
+-We can store all values in Wrapper classes same as primitives
+EX/ 
+int age = 45;
+Integer age = 45;
+
+-We use wrapper classes as they have some useful methods for us to manipulate data
+EX/ valueOf(), parseInt(), parseBoolean()
+
+
+AUTOBOXING vs UNBOXING
+-Autoboxing is known as storing primitive type into object/wrapper class
+	EXAMPLE:
+	int num1 = 45: // primitive
+	Integer num2 = num1; // object
+
+-Unboxing is known as storing object/wrapper class into primitive
+	EXAMPLE:
+	Character character1 = ‘t’;   	  //object               char character2 = character1;     //primitive
+
+
+
+
+var keyword in JAVA
+-Var keyword is added to Java 10 release - 2018
+-var keyword allows local variable type inference, which means the type for the local variable will be inferred by the compiler
+-With that, it is not necessary to declare data type!
+
+EXAMPLE:
+int age = 45;
+var age = 45;
+
+
+ var age = 45; //byte, short, long, int, double, float
+ var balance = 100.6; // float, double
+ var number = 4375683L; // long
+
+ var smth = '#'; // char
+ var name = "Bahar"; // String
+ var check = true; // boolean
+
+
+IQ - Which version of Java do you use?
+I am using Java-8 in my company project
+But I use java-15 and also 8 in my personal computer
+
+-I practice last features with java-15
+-But I still use java 8 with other tools
+
+
+
+
+
+
+

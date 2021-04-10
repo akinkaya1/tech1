@@ -1,0 +1,55 @@
+
+
+2/27/2021 - Loops 2
+
+RECAP-
+
+-Loops are going to allow us execute a block of code repeatedly
+
+1. For loop (i loop) (traditional loop)
+
+Syntax:
+3 important points 
+1.start point (initialization point)
+2.end point (termination) - condition
+3.update (post-decrement or post-increment)
+
+for(int i = 0; i <= 100; i++){
+	// execute code here
+}
+
+
+
+= vs == (equal vs ==)
+= is used assign values
+
+String name = "Lionel";
+int age = 45;
+
+== is used for comparison
+
+5 == 5  -> true
+
+
+
+NOT OPERATOR (!)
+
+!true -> false
+!false -> true
+
+
+HOW TO FIND EVEN OR ODD NUMBERS
+
+number % 2 == 0   -> EVEN
+number % 2 == 1   -> ODD
+number % 2 != 0   -> ODD
+
+
+
+
+
+
+
+
+
+

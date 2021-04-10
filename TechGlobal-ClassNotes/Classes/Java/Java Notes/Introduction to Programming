@@ -1,0 +1,156 @@
+
+
+1/19/2021 - Introduction to Computer Programming
+
+-Download Sublime Text
+-It is a text editor that is mostly preferred by IT professional.
+-We will store our class notes there
+
+
+
+
+SDLC
+-The aim is to get an end product
+-Step by step prodecure to build the end product (application)
+
+-Save money and time for the company
+
+-Every application starts with an idea
+-Idea is to solve a real life problem
+
+-SOFTWARE 
+Definition: is a set of instruction that tell computer what to do and how to do.
+
+-We can not see software but we always feel
+-Software: 2 types of software
+1. System => Mac OS, Linux, Windows, Unix
+2. Application => Uber, MS Office, Chrome, Paint, Adobe Acrobat Reader
+
+- Software is written in a high-level computer programming language like Java, C, Pyhton, C++
+
+
+-HARDWARE
+-It is the body of the computer - every component of the computer that we can see and touch
+
+Input devices: allows us enter data. Ex/ keyboard, scanner, microphone, webcam
+
+Output devices: allows us to retrieve data. Ex/ printer, monitor, speakers
+
+Pointing devices: allows us to point objects or icons on the screen. Ex/ Mouse, touchpad, touchscreen
+
+Storage: allows us to store, retrieve, and save data. Ex/ hard-disk, memory cards, 
+
+Other: RAM, CPU, CD-ROM
+
+
+
+SOFTWARE DEVELOPMENT - Engineers (SDE)
+
+- One of the SDLC phase
+- it comes after requirements, planning, analysis and design
+- main actors in this phase are the developers (SDE)
+
+- There are 2 types of developers
+
+1. Frontend developers: They built all the components of the software that we see on our screen
+
+- UI developers
+- UI => User Interface
+- Use tools: HTML, CSS, JavaScript
+
+- HTML
+- HTML stands for Hypertext Markup Language
+- HTML uses tags to created the structure of the page
+- HTML is a programming language
+
+- CSS
+- CSS stands Cascading Style Sheet
+- We use CSS for the design and styling of the website page (color, font, styles, layout etc)
+
+- CSS can not be used without HTML
+- CSS to describe the way HTMl elements displayed on a website
+- CSS is not a programming language
+
+- JavaScript
+- it is used to control the behavior of different elements
+- It used with HTML and CSS
+- It is a programming language that allows developers to change the HTML and CSS components of the web elemnts to meet requirements
+
+- JavaScripts makes websites user friendly. Ex: it is used for menus, animations, 2D -3D graphics, maps, video players etc.
+
+
+BACKEND DEVELOPERS
+
+- They built all the components of the website that we don't see
+
+- Tools they use: Java, C, C++, Pyhton, C#
+
+FULL STACK DEVELOPERS
+- They can do both frontend (UI), backend part of the software (application)
+
+
+
+SDET vs QA (Software Development Engineer in Test vs Qaulity Assurance)
+-QA does manual testing
+-SDET can do both manual and automation testing
+
+
+Why we need automation?
+-Manual testing is consuming time and money for the companies
+-The reason for that is tests are run by human manually
+-Human errors can happen with manual testing
+-Automation can be done with set of tools
+-And all tests can be automated and this will save time and money for the company
+-Automation testing is more reliable as it eliminates human errors
+
+Manual: QA/QE/Quality Assurance/ Quality Engineers/ Quality Analyst/ Tester/ Test Engineer
+
+Automation: SDET/ Software Development Engineer in Test/ Automation Tester/ Automation Test Engineer
+
+
+
+BINARY CODE
+
+-It is the language of computer
+-Computer understands only ones and zeros
+
+
+ASCII
+-ASCII is a system that represents every letter, number, special characters
+-Without ASCII, we would not be able to read anything from computer.
+
+
+-Binary code is the computer language and it is made of ones and zeros.
+-ASCII code is used for conversion
+
+
+PROGRAMMING LANGUAGE
+-It is the way to communicate with computer and tell what to do
+-Learning a programming language is similar to learning a natural language
+-Natural language has grammar while programming language has syntax
+-Programming language ambiguity and it will fail with that. 
+-I saw the guy with a telescope. Who has the telescope?
+
+NOTE: Programming Language will be looking for exact and clear instructions.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,62 @@
+
+
+1/20/2021 - Learning Command Line and Common Commands
+
+-SDLC
+-Step by step procedure to develop a software
+
+
+COMMAND LINE
+-it is used to give computer instructions to get results
+-Mac uses terminal
+-Windows uses cmd - Command Prompt or Powershell
+
+COMMON COMMANDS
+
+directory = folder
+
+1. cd - change directory
+2. cd .. - change directory to parent
+3. clear (cls for windows) - clear your terminal or cmd
+4. cd / - change directory to starting point
+5. pwd (cd for windows) - print working directory - show me where I am
+
+6.ls (dir fow wondows) - use this command to list all the files and folders (directories) in the current directory
+
+7. mkdir directoryName - this command allows us to create directory (folder)
+
+		mkdir "New Folder" - will enable us to create directories with names that has multiple words
+
+		mkdir directoryName directoryName - it will create 2 folders
+		EX/ mkdir Apple Banana - this will create 2 folders
+		First will be named as Apple and second will be named as Banana
+
+8. rm -rf directoryName (rd for windows) - use this command to delete directory
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

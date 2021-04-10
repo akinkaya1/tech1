@@ -1,0 +1,62 @@
+
+
+
+3/17/2021 - Object-Oriented Programming 4
+Learning Object – Class
+
+
+
+METHOD
+- Class member
+- Methods are used run a specific task
+- 2 types of methods - void - return
+- Reusability of code
+
+METHOD OVERLOADING
+-In Java, multiple methods in class can have same name
+-Those methods having names are known as overloaded methods
+-HOW YOU CAN ACHIEVE OVERLOADING
+-Different parameters
+ 1. different data type of parameters
+ 2. different number of parameters
+
+
+ NOTE: it is not possible to achieve method overloading with changing return type
+
+
+ METHOD SIGNATURE
+-methodName(args)
+
+
+STATIC METHOD
+-Static methods can be called with class name
+-We don't need to create an object those methods
+EX/ println(), print()
+valueOf()
+isDigit(), isLetter()
+sort(), binarySearch(), toString
+
+
+Static method vs non-static method
+-static methods are created with static keyword
+-we can call non-static methods with object that is why we always need to create object of that class first
+-we can call static methods with Class name right away, that is why we don't need to create objects to call static methods
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

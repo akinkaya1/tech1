@@ -1,0 +1,62 @@
+
+
+3/16/2021 - Object-Oriented Programming 3
+Learning Object – Class
+
+Class = It is a blueprint or template that enable us to create many objects
+
+Object = It is an instance of class
+
+
+How we can create object?
+
+Syntax: ClassName variableName = new ClassName();
+
+Random r =  new Random();
+
+-Constructor is a special method of class enable us to create objects of that class
+-Constructor always comes after new keyword
+-We can not create objects without new keyword and constructors
+
+INSTANCE VARIABLES
+-it is one the class members
+-it is attributes - features - charecterictics of an object
+-Also known as fields
+
+-final instance variables -> are the fields that will have initial value and this initial value cannot be changed
+-static instance variables -> those variables can be accessed just with the Class name, you don't need to create an object
+
+Integer.MAX_VALUE; -> static and final
+
+
+METHODS
+-It is also one of the class members
+-They are used to run a specific task
+-There are 2 types of method - void and return types
+void methods do not have any return type
+
+
+METHOD OVERLOADING
+-In Java, two or more methods  may have the same name
+
+-This is allowed if they differ in parameters (different number of parameters, different types of parameters, or both). 
+
+-These methods are called overloaded methods and this feature is called method overloading
+
+-Note: Multiple methods can have the same name if the number and/or type of parameters are different
+
+HOW TO ACHIEVE METHOD OVERLOADING
+-Method overloading is achieved by either:
+-changing the number of arguments
+-or changing the data type of arguments
+-argument = parameter
+
+
+
+
+
+
+
+
+
+

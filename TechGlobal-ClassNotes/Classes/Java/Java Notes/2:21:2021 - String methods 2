@@ -1,0 +1,143 @@
+
+
+2/21/2021 - String methods Continued
+
+-> toUpperCase() , toLowerCase()
+-What it takes?  -> both of them are taking a String
+-What it returns?-> both of them are returning a String
+
+String s = "ABCdef"; s.toUpperCase(); -> ABCDEF
+String s1 = "ABCdef"; s1.toLowerCase(); -> abcdef
+
+Ex/ Today, it is FINALLY not snowing and weather is nice!!!
+	today, it is finally not snowing and weather is nice!!!
+
+
+-> equals(String), equalsIgnoreCase(String)
+- equals(String) is case sensitive - although the String are equal but there are some case differences, this will return a false
+EX/ world is not equal to WoRld
+
+
+-equalsIgnoreCase(String) is case insensitive - this will ignore the uppercase or lowercase letters and will return true if Strings are same
+EX/ world is equal to WorlD
+
+
+EX/
+String s1 = "world";
+String s2 = "WOrld";
+
+
+NOTE: When we check if 2 Strings are equal or not, we will never use == to do this.
+== can be used to compare byte, short, int, long, float and double and also char and boolean
+
+We can not use this for Strings because == is used to check not values but Strings' location
+
+7.charAt(index);
+-It takes a string
+-Returns a characters
+-it takes an arguments which is the index(position) of specified character
+
+NOTE: if given index is out of bound which means given String does not have this index, then it will throw an exception
+-java.lang.StringIndexOutOfBoundsException
+
+-Exception is a Runtime error
+
+
+8.indexOf(char)
+-it takes a string
+-it returns an int - the first position (index) of the given char
+-it takes an argument which is a char
+
+9.indexOf(String)
+-it takes a string
+-it returns an int - the first position (index) of the given String
+-it takes an argument which is a String
+
+
+9.lastIndexOf(char)
+-it takes String
+-it returns int - the last position (index) of the given char
+-it takes an argument which is a char
+
+10-lastIndexOf(String)
+-it takes a string
+-it returns an int - the last position (index) of the given String
+-it takes an argument which is a String
+
+
+
+11.length()
+-it takes a String
+-it returns an int - it is the length of the String
+it is basically returning the total number of characters in a String
+-it does not take any argument
+
+NOTE: Space is also a character and will be counted in the length
+
+
+12. trim()
+-it takes a String
+-it returns a String
+-it does not take any arguments
+
+String trim() method is used to remove whitespace from both ends of a string 
+This method is going to return the given string back but clears spaces before and after the string
+NOTE: it will take all spaces before and after the string
+
+
+
+13.substring(beginIndex)
+-it takes a String
+-it returns a String
+-it takes an int as argument which is the begin index to extract
+
+There are 2 substring() methods in String class that are used to extract the characters from a string
+1st one can be used to extract the characters from a string, beginning at a specified start position, and through the end 
+This method is going to return another string
+index = position, place
+It will throw an exception if given starting index not found
+	java.lang.StringIndexOutOfBoundsException
+
+
+14.substring(beginIndex, endIndex)
+-it takes a String
+-it returns a String
+-it takes 2 int as arguments which are the begin and end indexes to extract
+
+
+15.startsWith(String)
+-it takes a String
+-it returns a boolean
+-it takes a String as an arguments
+
+
+
+16.endsWith(String)
+-it takes a String
+-it returns a boolean
+-it takes a String as an arguments
+
+
+17.contains(String)
+-it takes a String
+-it returns a boolean
+-it takes a String as an argument
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

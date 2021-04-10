@@ -1,0 +1,114 @@
+
+
+
+2/3/2021 - BA Introduction and Java Operators
+
+1. SDLC starts with an idea
+
+idea by Business -------------------Application by developers
+
+
+Where does BA stands in this?
+
+Business guys do not have technical skills but developers will do the technical job.
+
+BA or PO is the person who can be a bridge between business and developers (non-technical and technical)
+
+
+2. BA prepares requirement
+
+Nowadays, almost everything is GHERKIN by BA or PO
+GHERKIN is a language used to simplify requirements
+GHERKIN is a language used to explain requirements
+
+
+
+Given -> pre-condition
+When  -> action
+Then  -> post-condition
+
+
+Scenario 1:
+Given user is on TechGlobal website Home Page
+When user clicks on the APPLY NOW menu button on Home Page
+Then user should be directed to Apply Now Page
+And user should be seeing application form
+
+
+Scenario 2:
+Given Scenario 1 is completed and user is seeing the form
+When user is seeing application form
+Then user should see below input fields
+name, last name, phone etc.
+
+Scenario 3: 
+.
+.
+Then all the fields must be required
+
+
+
+3. Developers and testers 
+
+Developers are starting to develop features and testers will  test developers work according to requirements
+
+
+
+4. BREAK!
+
+
+5. UAT -> User Acceptance Testing
+
+
+
+
+RE-ASSIGNMENT
+
+1. int age = 45;
+
+2. int age;
+
+   age = 45;
+
+   System.out.println(age);  // 45
+
+
+   age = 27;
+
+   System.out.println(age);  // 27
+
+
+   -JAVA reads our code from top to bottom and left to right
+   -At the last line it will always return the last assigned value
+
+
+
+   -GARBAGE COLLECTOR
+   -Every value that lose reference to it will be deleted by GarbageCollector
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

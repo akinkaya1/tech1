@@ -1,0 +1,9 @@
+Software Testing - 3
+3-22-2021
+
+Ad-Hock Testing: without depending on any scenarios or test cases you just randomly clicking on the application.
+
+1. I login wiht my credentials
+2. I see the product
+3. I click back button 
+4. System took me to the paymen page(EXPECTED: Product page)

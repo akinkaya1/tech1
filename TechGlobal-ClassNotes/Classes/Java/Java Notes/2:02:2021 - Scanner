@@ -1,0 +1,105 @@
+
+
+2/2/2021 - Scanner
+
+-Scanner is a Java class
+-We can use Scanner for reading data from user
+-Scanner was located java.util package
+-To be able use the Scanner, we first need to create an object of Scanner
+
+Scanner scan = new Scanner(System.in);
+
+-We have to also import Scanner class to be able to use it 
+
+-new keyword is used whenever we are creating an object
+EX/ Date date = new Date();   -> creating new Object
+
+EX/ Cars anyCar = new Cars();
+
+
+next() method
+-this is a Scanner method
+-it is used for reading string - sequence of characters
+-it can read only 1 string
+-it can read until the next space
+
+EX of Strings
+-12345
+-#@$%@#$
+-kug3425
+-My age is 32
+
+
+
+Variable declaration and assignment
+
+1st way -> declaration and initialization
+
+int age = 25; 
+
+2nd way -> 
+
+int age;   first declare your variable
+
+age = 25;  then put value into your variable
+
+
+
+
+String declaration and assigment
+1st way -> 
+
+String name = "Lionel"; assignment and putting initial value
+
+2nd way ->
+
+String name;   declaration
+
+name = "Lionel";  assignment
+
+
+name = scannerName.next();
+
+NOTE: difference of String from char
+-char can store only one character\
+
+EX/ char dollarSign = '$';
+
+-String can store multiple characters - sequence of character
+
+EX/ String city = "Chicago";
+
+
+
+
+-nextLine() method
+
+-next() is used to read only one string and it is until first space
+EX/ I love pepsi!   -> this will take only "I"
+
+-nextLine() is used to read whole line
+EX/ I love pepsi!                                                     
+
+
+NOTE: if you are using nextLine() method after next() method
+Then, be careful! 
+To do this, you have to move your scanner one line!!!
+
+EX/ myScanner.nextLine(); //REMEMBER!! your scanner could be any name
+
+
+nextInt()
+-This is another Scanner method
+-It can be used to store integers, numbers
+
+
+
+
+
+
+
+
+
+
+
+

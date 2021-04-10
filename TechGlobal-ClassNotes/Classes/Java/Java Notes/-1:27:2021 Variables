@@ -1,0 +1,63 @@
+
+
+-1/27/2021 Variables
+
+-We can use only characters from ‘a’ to ‘z’, ‘A’ to ‘Z’, numbers from ‘0’ to ‘9’, character ‘_’, and character ‘$’ for naming the variables
+
+-A variable name cannot start with a digit (numbers from 0 to 9)
+-A variable name cannot contain space  character
+
+
+
+Which of those variables are going to compile?
+int age; -> true, will compile
+byte AGE; -> true, will compile
+short shift$; -> true, will compile
+byte number of students; -> false, will not compile
+char _firstLetter; -> true, will compile
+int 8students; -> false, will not compile
+boolean isWheatherSnowing#; -> false, will not compile
+double @balance; -> false, will not compile
+
+
+2 WAYS TO DECLARE VARIABLES
+	-There are 2 possible ways to declare a variable
+    
+    1.dataType variableName;
+    -> this specifies its data type and reserves memory for it
+    	EX/ short number;
+
+    2.dataType variableName = initialValue;
+    -> specifies its data type and reserves memory for it and puts
+    and initial value into that memory. The initial value
+    must be correct data type
+    	EX/ double balance = 1000.50;
+
+-DECLARING MULTIPLE VARIABLES
+-Java allows to declare and initialize multiple variables in the same statement
+int age1, age2;
+byte number1 = 10, number2 = 20, number3 = 50;
+-Many variables can be declared in the same statement if they are all same type
+int num1, num2, num3 = 45, num4, num5;
+
+
+boolean b1, b2; -> true, will compile
+int i1 = 45, i2; -> true, will compile
+double d1, double d2; -> false, will not compile 
+byte b1; byte b2; -> true, will compile // Because these are 2 different statements
+
+int i3; i4; false, will not compile // Because the second variable data type is missing
+
+double d4; int age; true, will compile 
+
+
+VARIABLE = FIELD
+
+
+
+
+
+
+
+
+

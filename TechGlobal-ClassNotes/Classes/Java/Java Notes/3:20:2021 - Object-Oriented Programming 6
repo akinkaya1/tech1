@@ -1,0 +1,118 @@
+
+
+
+3/20/2021 - Object-Oriented Programming 6
+Learning Object – Class
+
+
+-CONSTRUCTORS
+-Special kind of method that helps us to create objects
+-It is always used next to "new" keyword while creating objects
+
+-Animal a = new Animal();
+
+public Animal(){
+	// default constructor
+}
+
+- We cannot create objects without constructors
+- Constructors can be overloaded and custom constructors can be created
+
+-Custom constructors allow us to create new objects with initial attributes
+
+-Java always provides us default constructor if we do not create any custom ones.
+-It is always same as ClassName
+
+
+
+CONSTRUCTOR CHAINING
+
+public Phone(String brand){
+        //1 arg constructor
+        this.brand = brand;
+    }
+
+    public Phone(String brand, String color){
+        //2 args constructor
+        this(brand); // this will call constructor with 1 arg and assign brand to object
+        this.color = color;
+    }
+
+    public Phone(String brand, String color, int storage){
+        //3 args constructor
+        this(brand, color); // this will call constructor with 2 args and assign those to object
+        this.storage = storage;
+    }
+
+
+ - We can call one of our custom constructor in another custom one
+ - This is possible by this(args);
+ - this(args); should always be the first statement in the constructor it is called
+
+
+Local variables vs instance variables (fields) – this keyword
+
+-Local variables: variables that are created within the method. Scope for local variables: it stays within the method
+
+-Instance variables: variables that belongs to an object. The variables that are created right under the class. It can be used within the class
+
+-When we have instance variable and local variables which have same variable name, java accepts local variable as a priority
+
+-this keyword is a reference to the current object of its type
+
+-this keyword is useful when we have instance variable and method parameter with same name
+
+
+this vs this()
+-this keyword is used to call fields and help us to differentiate the local variables from instance variables
+-Otherwise, Java always takes local variable
+
+-this(args) is used to call a custom constructor in another custom constructor 
+-this(args) must be first statement in the constructor
+
+
+BLOCKS
+-A block of code
+-It is some statements inside {}
+-We have 3 types of block
+1. local blocks
+2. instant block -> non-static (instance initialization block)
+3. static (static initialization block)
+
+
+-Instance blocks will be executed for each object created
+-If I have multiple instance blocks, they will be executed top to bottom
+
+-static blocks will be executed only once for the class
+-static blocks executed first even if they are at the bottom of the class
+
+-we can create non-static (instance blocks) in a static block but not visa versa.
+
+-Instance blocks can be used to give initial values to non-static instance variables (fields)
+-static blocks can be used to give initial values to static instance variables
+
+
+ARRAYLIST
+-Arrays in Java have fixed size and once the size of an array is declared, it’s not possible to change it
+
+-To handle this issue, we can use the ArrayList class. It allows us to create dynamic sized arrays
+
+-Unlike Arrays, ArrayLists can automatically adjust its capacity when we add or remove elements from it and  hence, ArrayLists are also known as dynamic arrays
+
+HOW TO CREATE ARRAYLIST
+-We first need to import the java.util.ArrayList 
+
+-Syntax:
+ArrayList<Type> myArrayList= new ArrayList<>();
+
+-Example:
+ArrayList<String> students= new ArrayList<>();
+List<String> languages= new ArrayList<>();
+
+
+
+
+
+
+
+

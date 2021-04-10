@@ -1,0 +1,101 @@
+
+
+1/24/2021 - Java Primitives
+
+
+SOME Questions
+1. A sample test case
+	TechGlobal logo, name and motto or tagline
+	1. When user navigates to www.techglobalschool.com
+	2. Then user should be able to see our logo, name, motto
+	3. And our logo should be on top-left of the page
+	4. And our name and motto should be next to our logo and different lines
+
+	***main page should have logo, motto, and company name
+	Where they will be taking place?
+	Their colors?
+
+
+2. What do we do in SDLC phases, in maintanence?
+-Fixing the bugs
+-We are in every phase of SDLC
+
+
+Java has JDK, JRE, JVM
+
+JVM allows us to run the program
+Our program will be executed from top to bottom and left to right
+
+
+COMMENTING OUT IN JAVA
+-Commands are used for explanations
+// is used to comment out a single line
+/* some lines of code */ is used to comment out multiple lines
+
+	/*
+    print your DOB using print
+    print your favorite color using print
+    print your name and last name in separate lines using println
+     */
+
+    System.out.println(); //we use this to just move cursor to a new line
+
+  Where do we get requirements?
+  -Different tools used for project management
+  -JIRA: we will learn this tool in our soft skill classes
+  -
+
+
+  SPECIAL CHARACTERS in println()
+  \n -> this will enable us to move our cursor to a new line
+
+  EX: 
+    public static void main(String[] args) {
+        System.out.println("Name: Volkan\nLastName: Gurler\nDOB: 12/12/1985\nFavorite color: red");
+    }
+
+  \t -> insert a tab (space)
+
+  NOTE: we can use + sign to concatenate separate texts - data types
+  EX/ "Lionel" + " " + "Messi" -> return Lionel Messi
+
+  System.out.println("\tHey, this is Akin, and I am from Chicago. I have been working in"
+                + "\nIT field for a long time."
+                + "\n\tChicago is really cold during winters, but it is nice in the summers."
+                + "\nIts population is over 2 million.");
+
+
+  \\ -> is used to insert a back slash "\"
+  EX/ System.out.println("abc\\xyz"); -> result = abc\xyz
+
+  \" -> is used to insert a double quotation "
+  EX/ System.out.println("ap\"p\"le"); -> result = ap"p"le
+
+
+  PRIMITIVES
+  -There are 8 primitive data types
+  -byte, short, int and long are used for numeric data 
+  	EX/ 100, 45, 30000000, -45000
+
+  -float and double can be used for numeric data but they have floating points
+  EX/ 10.5  70,4375 -89.99
+
+  -char to store every single character
+  EX/ 'A' , '1' , '$'
+
+  -boolean
+  - it will store either true or false
+  
+ 
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,47 @@
+
+
+2/4/2021 - Java Operators
+
+
+Relational Operators
+-It will check mostly the numbers and return a boolean
+-It will always return either false or true
+
+
+3 < 10   -> true
+8 > 5    -> true
+5 > 5    -> false
+5 == 5   -> true
+5 >= 5   -> true   (is 5 greater than 5 or is 5 equal to 5)
+5 <= 5   -> true
+10 == 10 -> true
+10 != 10 -> false
+
+
+NOTE: ! means NOT
+EX/ 10 != 10 -> means, 10 is not equal to 10
+
+
+EXAMPLE
+int x = 10, y = 20, z = 10;
+
+
+boolean b1 = y < z; returns => 20 < 10 false
+boolean b2 = x <= y; returns => 10 <= 20 true
+boolean b3 = x >= z; returns => 10 >= 10 true
+boolean b4 = y > x; returns => 20 > 10 true
+boolean b1 = x >= y; returns => 10 >= 20 false
+boolean b1 = (x >= z) < y; returns => this is not going to compile :)))
+
+
+
+
+
+
+
+
+
+
+
+
+

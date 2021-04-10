@@ -1,0 +1,201 @@
+
+
+2/6/2021 - Java Operators
+
+=
+
+1. Assigment operator
+- we can assign values into variables and object using equal sign
+EX/ int age = 25;
+	int is data type - primitive data type
+	age is the variable
+	25 is the value
+	dataType variableName = value;
+
+EX/ String address = "Chicago";
+	String is an object
+	address is the name of String object
+	"Chicago" is the assigned value to the address object
+
+int age;  -> declaration
+age = 45; -> assignment
+
+Scanner input = new Scanner(System.in);
+Date date = new Date();
+
+-Scanner is java class and also an object
+-input is the name of Scanner object
+
+NOTE: print(), println() are methods
+next(), nextLine(), nextInt()
+
+2. Shorthand assigment operators
+-mostly used with numbers for math operators
++=
+-=
+*=
+/=
+%=
+
+-BUT += can be used for String as well for concatenation purpose
+
+
+
+3.Relational operators
+-All relational operators will return a boolean/ true or false
+>
+<
+EX/ 3 !> 5
+
+>=
+<=
+
+EX/ 3 <= 5   same as  3 < 5 or 3 == 5   true
+EX/ 5 <= 5   same as  5 < 5 or 5 == 5   true
+
+==
+!= not equal 
+
+!true -> false
+!false -> true
+
+
+NOTE:
+= is used to assign
+== is to compare 2 things
+
+3 == 3   -> true
+3 == 5   -> false
+3 !== 5   -> true
+
+int age = 3;
+
+
+4. Increment and decrement operators
+
+int age = 10;
+
+age++; // age 11 and 11 is put into age
+
+post-increment -> age++;
+pre-increment  -> ++age;
+
+post-decrement -> age--;
+pre-decrement  -> --age;
+
+increment is used to increase value
+decrement is used to decrease value
+
+
+post - increase or decrease now but assign in the future
+
+pre - inscrease or decrease now and also assign value 
+
+
+NOTE: We usually post-increment or post-decrement
+
+
+
+5. Logical operators
+-There are 2 types of logical operators
+-These will help us to check multiple conditions and they return a boolean all the time / true or false
+
+
+AND OPERATOR
+-AND is shown with & operator
+Expected results
+false && false 	- returns false
+false && true	- returns false
+true && false	- returns false
+true && true 	- returns true
+
+It will return true only if both conditions are true
+It will return false if one or both conditions are false
+
+
+- cold and weekdays -> I will stay at home
+- 15 and 20 are dividable by 5 => true
+- 15 and 20 are dividable by 3 => false
+
+- 15 & 20 are dividable by 5 => true
+
+
+OR Operator
+-OR is shown with | (pipe) operator
+Expected results
+false && false 	- returns false
+false && true	- returns true
+true && false	- returns true
+true && true 	- returns true
+
+It will return false only if both conditions are false
+It will return true if one or both conditions are true
+
+
+
+condition 1 = sunny day
+condition 2 = weekend
+condition 3 = there is a game on weekend
+
+sunny day && weekend && there is a game -> then I will go to game
+
+
+
+condition 1 = java
+condition 2 = selenium
+condition 3 = experience
+condition 4 = cucumber
+condition 5 = singer
+
+
+
+(5 < 10) && (10 > 76) -> false
+(5 < 10) & (10 > 76) -> false
+
+
+(10 > 76) && (5 < 10) -> false
+(10 > 76) & (5 < 10) -> false
+
+
+
+
+(3 == 5) || (10 != 20)  -> true
+
+(10 != 20) || (3 == 5)  -> true
+
+
+
+true && true && true && true && false && true -> false
+
+
+false || false || true || false -> true
+
+
+
+
+NOT Operator
+-Shown with ! sign
+
+Expected results
+!false 	- returns true
+!true	- returns false
+
+
+
+
+Operations that returns boolean
+> < >= <= == !=       -   relational operators
+& | && || !           -   logical operators
+
+
+
+
+
+
+
+
+
+
+
+
+

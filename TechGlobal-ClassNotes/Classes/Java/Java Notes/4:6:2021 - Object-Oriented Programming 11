@@ -1,0 +1,93 @@
+
+
+4/6/2021 - Object-Oriented Programming 11
+OOP Principles - Polymorphism
+
+RECAP:
+OOP Principles:
+1.Encapsulation
+2.Inheritance
+3.Abstraction (Abstract class and Interface)
+4.Polymorphism
+
+ENCAPSULATION
+- is making sure that sensitive data is hidden from user
+
+how to achieve encapsulation?
+- make instance variables private
+- provide getters and setters
+
+Why we are using encapsulation?
+- increasing security of data
+- flexibility to provide read or write with setters and getters
+- better control of class attributes
+
+INHERITANCE
+- it is allowing child class to be able to use parent class members by creating child-parent relationship with extends keyword and it is providing code reusability
+
+- child class -> sub class
+- parent class -> super class -> base class
+
+- The relation is created between those by using extends keyword
+- Child extends Parent
+- Mercedes extends Car
+- Mercedes is a Car
+
+Inheritance is also known as IS-A-RELATIONSHIP
+
+HAS-A-RELATIONSHIP -> 2 classes has a relation in java but they are not parent and child. Example of Book and Author
+
+How to achieve inheritance?
+- we use extends keyword to achieve inheritance
+
+Why we use inheritance?
+- code reusability as many child classes can use same parents member (attributes and methods of parent)
+
+
+ABSTRACTION
+-Abstract classes
+-Interfaces
+
+- it is hiding the implementation of the functions and only defining WHAT TO DO for child classes instead HOW TO DO.
+
+- They are mostly used with child classes
+
+Abstract classes vs interfaces
+- both used to achieve abstraction
+- both cannot be instantiated - we cannot create objects from those
+
+-TOP AND MOST SIGNIFICANT DIFFERENCE: abstract class does not provide multiple inheritance as one class can extend to one parent only. However, this multiple inheritance can be achieved by using interfaces as one class can implement multiple interfaces. Also, one interface can extend to multiple interfaces
+
+more differences.....
+
+Why we need abstraction?
+- code reusability
+
+
+
+POLYMORPHISM
+- one object is being able to get many shapes or forms
+
+Casting in polymorphism
+-switching between the reference types for one object
+-when reference is parent and object is child -> up-casting
+-when reference is child and object is parent -> down-casting
+
+-When we are casting between reference types, we might get java.lang.ClassCastException when we try to cast parent to child
+
+Why we need polymorphism?
+-One of the biggest advantage of having polymoprhism is being able to create polymorphic arrays (collections) and this allows us to store different object data types in the same variable
+
+
+
+
+
+
+
+
+
+
+
+
+
+

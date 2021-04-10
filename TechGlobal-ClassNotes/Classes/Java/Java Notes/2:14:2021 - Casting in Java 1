@@ -1,0 +1,136 @@
+
+
+2/14/2021 - Casting in Java
+
+
+RECAP:
+
+-Switch cases
+-Usually used with the cases that are certain
+-It could be faster than if - else if - else statements
+-It could be used with byte, short, int, char, String and Enum
+
+int number = anyNumber;
+
+switch(number){
+	case value1:
+		//execute this code
+		break;
+	case value2:
+		//execute this code
+		break;
+		.
+		.
+		.
+		.
+		.
+	default:
+	//execute kind of default code
+}
+
+NOTE: break statement => terminate the statement
+break will be used also in the loops
+
+!true -> false
+!false -> true
+
+
+
+CASTING
+-It is storing a primitive data type into another
+
+
+double balance = 60; // 60.0
+
+int number = balance; // compile error
+
+int age = 45;
+
+
+HOW TO DECLARE PRIMITIVES?
+
+dataType variableName = value; // Declare and initialize
+
+dataType variableName;   // declare first
+
+variableName = value;    // assign later
+
+variableName = newValue; // reassignment
+
+
+
+There are 2 types of casting in Java
+1. Implicit casting
+2. Explicit casting
+
+
+IMPLICITLY -> happens automatically
+EXPLICITLY -> requires an extra action
+
+
+Numeric data types -> 1,2,3,25, 60, 100, 35876, -342723, -100
+Floating data types -> 1.0 , 2.0 , 3.0 , 69.0 , 125.0 , 1.5 , 2364.34534 
+
+IMPLICIT CASTING
+The implicit casting is performed when assigning a smaller data type value to a bigger data type variable
+
+This is also known as widening assignment or upcasting
+Example of implicit casting: 
+	
+short number = 45; 
+	
+int age = number; 
+
+
+
+EXPLICIT CASTING
+The explicit casting is performed when assigning a bigger data type value to a smaller data type variable
+
+This is called narrowing assignment or down-casting
+
+Example of explicit casting: 
+	
+double balance = 100.00; 
+	
+float bal = (float) balance; 
+
+
+
+Casting characters
+EX/ 
+char c = 'A';
+
+int number = c; // implicit casting
+
+I could also use long, float and double to store c!
+
+number holds the decimal value of character A from the ASCII table
+
+NOTE: Casting from any data type to char can happen explicitly
+
+
+
+60 -> byte, short, int, long, float, double, char
+
+
+==> Converting primitives to String <==
+We can convert any data type to a String
+Using + (concatenation), will convert any data type to a String
+Or String.valueOf(variable) can be used
+
+Example of implicit casting: 
+	int age = 45; 
+	String stringAge = age + “”;      ”” is known as empty String
+	String stringAgeSecond = String.valueOf(age);
+
+
+
+
+
+
+
+
+
+
+
+

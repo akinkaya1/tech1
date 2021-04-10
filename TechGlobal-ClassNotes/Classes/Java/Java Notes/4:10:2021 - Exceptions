@@ -1,0 +1,129 @@
+
+
+
+4/10/2021 - Exceptions
+
+Exception: 
+-Coding related errors and programmer is responsible to handle exceptions
+-They must be handled by programmer by using try-catch blocks
+-There are two types of exceptions
+	1. Checked - compile-time exceptions: these are the exceptions we got even before running program
+	EXAMPLE: IOException, FileNotFoundException
+
+	2. Unchecked - run-time exceptions: these are the exceptions we got when we run the program
+	EXAMPLE: ArrayIndexOutOfBoundsException, StringIndexOutOfBoundsException, NullPointerException
+
+-Those exceptions are known as BUG
+
+Error: Errors are more serious than exceptions and cannot be handled by programmer
+-All errors are unchecked type and occurs in run-time (when we run the program)
+-They are not programmer's responsibility
+EXAMPLE: StackOverFlow, VirtualMachineError, OutOfMemoryError
+
+HOW TO HANDLE EXCEPTIONS
+-How to handle checked exceptions
+	1.try-catch blocks
+	2.Add exception to the method's signature (not preferred)
+-How to handle unchecked exception
+	1.try-catch blocks
+
+-try-catch: these are blocks to be used to handle both types of exceptions
+-try-catch blocks cannot be used to handle errors
+-The try statement allows you to define a block of code to be tested for errors while it is being executed
+-The catch statement allows you to define a block of code to be executed, if an error occurs in the try block
+
+Syntax:
+try { 
+	// Block of code to try 
+} 
+catch(Exception e) { 
+	// Block of code to handle errors 
+}
+
+
+NOTE: 
+-try block can be used with multiple catch blocks in some cases. This might be used when code executed in try block might throw multiple different exceptions
+
+NOTE: We cannot catch child exception under parent exception type. In this case catch block used for child exception will be unreachable. Compiler error
+
+Syntax:
+try { 
+	// Block of code to try 
+} 
+catch(ArrayIndexOutOfBoundsException e) { 
+	// Block of code to handle errors 
+}
+catch(Exception e) { 
+	// Block of code to handle errors 
+}
+
+
+
+THE USE try-catch-finally blocks
+1.we can have try catch
+2.we can have try finally
+3.we can have try-catch-finally
+
+NOTE: try should always be followed by either catch or finally block. Otherwise, compiler error
+
+
+NOTE: Can catch or finally be used without try block?
+-No, compiler error
+-finally block
+-The finally block allow us to execute a final code after try...catch, regardless of the result
+-It is used to run a final block of code after try catch 
+-NOTE: try can ONLY be used either with catch or finally block
+-BUT it is optional to have only catch or block or both after try block
+
+-Syntax:
+try { 
+	// Block of code to try 
+} 
+catch(Exception e) { 
+	// Block of code to handle errors 
+}
+finally{ 
+	// Block of code to execute
+}
+
+
+Final vs finalize() vs finally
+
+-final: it is kind of a non-access modifier and do not control the access level for class members, but it provides some other functionalities 
+-A field can be final -> final field must be initialized, and this value cannot be changed
+-A method can be final -> this method cannot be overridden (it can still be overloaded)
+-A class can be final -> this class cannot be extended
+
+-finalize(): it is a method can be used to run a block of code before object reference is garbage collected
+-Purpose of using this method is to do proper clean up before removing the object
+-By default, finalize method is empty. However, you can write your own finalize method to take certain action
+-This method is in Object class and can be overridden wherever it is needed
+
+-finally: is a block used with try-catch block
+-The finally block allow us to execute a final code after try...catch, regardless of the result
+-It is used to run a final block of code after try catch 
+
+
+throw vs throws keyword
+-throws keyword comes with the handling exceptions by adding exception to the signature of the method
+-throws keyword is used to handle possible checked exceptions
+
+-throw keyword is used to create custom exceptions
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+StringIndexOutOfBoundException(10+2) -> IndexOutOfBoundException(7+3) -> RuntimeException(5+2) -> Exception(5)
+
+iPhone(3+) -> Phone(1+2) -> Device(1) -> 

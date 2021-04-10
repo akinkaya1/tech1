@@ -1,0 +1,97 @@
+
+
+2/23/2021 - String methods Continued
+
+17. contains(String)
+
+EX/
+
+"Java".contains("ava"); //true
+
+"Java".contains("ja");  //false as J is not equal to j
+
+"Java".contains(" Ja"); //false as "Java" does not have space
+
+NOTE: 
+We should be very careful about case (to be lower case or upper case)
+We should be very careful about space
+
+EX/
+
+"Selenium".startsWith("sele"); // false
+"Cucumber".toUpperCase().endsWith("ber".toUpperCase()); // true
+
+"CUCUMBER".endsWith("BER"); // true
+"cucumber".endsWith("ber"); // true
+
+
+
+18. replace(oldChar, newChar)
+-it takes a String
+-it returns a String
+-it takes 2 char arguments
+
+1. it checks first if string contains oldChar
+2. if string contains oldChar, then it will replace this with newChar
+
+
+19. replace(CharSequence, CharSequence)
+-it takes a String
+-it returns a String
+-it takes 2 CharSequence arguments
+
+
+20. isEmpty()
+-it takes a String
+-it returns a boolean
+-it does not take any argument
+
+
+EX/
+
+"Java".isEmpty(); -> false
+"".isEmpty();  -> true
+" ".isEmpty(); -> false
+
+
+NOTE:
+{} -> curly braces
+[] -> square brackets
+() -> paranthesis
+"" -> double quotation
+'' -> single quotation - apostrophe
+;  -> semi-colon
+:  -> colon
+.  -> dot
+,  -> comma
+|  -> pipe
+
+
+METHOD CHAINING
+-We can use many methods in a single line by chaining them and this is called as method chaining in Java
+
+
+NOTE: length()-1
+
+String str = "Lionel";
+the str.length() = 6;
+
+what is the first char - L and this the str.charAt(0);
+What is the last char - l and this is the str.charAt(5);
+
+5 = str.length() - 1
+
+So, the last character in a String can always be found with str.charAt(str.length() - 1)
+
+
+
+next() vs nextLine()
+-next() will read a single word (until the first space)
+-nextLine() will read all the line
+
+
+
+
+
+
+

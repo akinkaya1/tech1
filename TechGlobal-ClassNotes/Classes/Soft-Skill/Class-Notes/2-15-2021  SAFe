@@ -1,0 +1,91 @@
+
+
+2-15-2021  SAFe (Scaled Agile Framework)
+
+Reminders:
+
+	1. Please read the articles about Test Automation
+
+Agile: INCREMENTAL and ITERATIVE approach to manage the projects
+
+Agile Manifasto (Agile Values)
+  1. People over process and tools
+  2. Working software over comprehensive documentation
+  3. Customer collaboration over rigid contracts
+  4. Responding to change rather than following a plan
+
+Waterfall:
+
+Sequential approach to manage the projects
+
+Scrum: 
+1. Scrum is not a methodology
+2.A better way of building product
+3.Scrum is an agile process that allows us to focus on delivering the highest business VALUE in the shortest time
+3.Scrum solves the adaptive complex problems
+4.Incremental and Iterative
+
+SCRUM CEREMONIES:
+There are four main events in Scrum or Scrum Meetings:     
+1.  Sprint Planning Meeting
+	Scrum team selec the user stories for the next sprint
+
+2.  Daily Scrum MeetinG
+	What was done yesterday by the scrum team that helped meet the sprint goal?
+    What will be done today that will help meet the sprint goal?
+	Are there impediments that are preventing the team from meeting the sprint goal?
+
+3.  Sprint Review Meeting
+	A Sprint Review/Demo meeting is held at the end of the Sprint to inspect the Increment. The Team demonstrates the Increment with focus on the Sprint Goal according to the Definition of Done. The Product Owner reviews and accepts the delivered Increment.
+
+4.  Sprint Retrospective Meeting
+    Answering the questions:
+	What went well?
+	What went wrong?
+	How to improve?
+
+
+SCRUM ARTIFACTS: 
+ 1. Product backlog: 
+ 		Project is divided by PO into small pieces(user stories) and put in to the procuct backlog artifact
+
+ 2. Sprint backlog: 
+ 		The scrum team selects the user stories for the next Sprint and put them into Sprint backlog artifact.
+
+ 3. Increments artifact: 
+ 		An increment artifact is the sum of all the product backlog items completed during a sprint and all previous Sprints.
+ 
+
+Three Amigo meeting: 
+MY word:If there is someting you do not get an agreement between developer, you set up a meeting with PO to discuss about it and she will make a decision about it .
+
+Book word:
+Three amigos refers to the primary perspectives to examine an increment of work before, during, and after development.  Those perspectives are:
+
+Business – What problem are we trying to solve?
+Development – How might we build a solution to solve that problem?
+Testing – What about this, what could possibly happen?
+
+People holding these different perspectives should collaborate to define what to do, and agree on how they know when it is done correctly.
+
+PARKING LOT MEETING:
+There are legitimate things for a team to talk about in the morning that don’t fit the tightly-defined purpose of the Daily Scrum. Address those topics right after the Daily Scrum is over. 
+
+SCRUM VALUES:
+	1. Commitment
+	2. Courage
+	3. Focus
+	4. Openness
+	5. Respect
+
+
+
+
+
+
+
+
+
+
+
+

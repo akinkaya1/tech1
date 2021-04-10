@@ -1,0 +1,108 @@
+
+
+3/07/2021 - Arrays 3
+
+-WHAT IS ARRAY
+-Array is also an object
+-It is a collection
+-It is used to store multiple same data type
+-String[], int[], char[]
+-It should always be started with a fixed size
+-Initial size can not be changed
+
+-HOW TO FIND THE SIZE OF AN ARRAY
+-To be able to find the size of array,  we can use length method
+-length method in array will tell us how many elements our array holds
+
+EXAMPLE = char[] characters = new char[5];
+int sizeOfArray = characters.length; // 5
+
+System.out.println(sizeOfArray); // 5
+
+
+-FOR EACH LOOP
+
+int[] numbers = new int[5];
+
+System.out.println(numbers[2]);  // 0
+
+numbers[0] = 11;
+
+System.out.println(numbers[0]);  // 11
+
+
+numbers[3] = 25;
+numbers[2] = 37;
+numbers[4] = 45;
+
+1.print all elements with fori loop
+
+for(int i = 0; i < numbers.length; i++){
+	System.out.println(numbers[i]);
+}
+
+2.print all elements with for each loop
+
+for(int element: numbers){
+	System.out.println(element);
+}
+
+
+PRINTING ARRAYS OR IT'S ELEMENTS
+
+System.out.println(Arrays.toString(numbers));
+[11, 0, 37, 25, 45]
+
+System.out.println(numbers); // location or position of the array in my RAM
+[2@435876
+
+
+PRINT EACH ELEMENT
+for(int element: numbers){
+	if(element > 10) System.out.println(element);
+}
+
+null keyword
+-Reserved keyword by Java
+-null means an object variable is not pointing an object (value assigned to object)
+-Primitives cannot be null
+-If an object variable holds null, then it cannot be manipulated (methods cannot be used)
+-If object variable holds null and programmer tries to execute some methods over null value, then NullPointerException will be thrown as a run-time error
+
+
+
+FINDING SMALLEST AND GREATEST ELEMENTS IN AN ARRAY
+-4, 8, 11, 58, 65, 0
+-4, 0, 8, 11, 58, 65
+
+
+HOW TO SORT ARRAYS
+-we can also use sort() method
+
+int[] numbers = {34, 45, 1, -7};
+
+Arrays.sort(numbers); // -7, 1, 34, 45
+
+-Sorting an array means ordering elements inside an array
+-Sorting is very useful to find max and min int values
+-Arrays class has method called sort() and it can be used to sort array elements
+-Sorting can be used for String, char and other data types as well
+
+NOTES:
+-When you sort characters and strings, it will be done based on ASCII
+-sorting numbers returns array sorted from smaller to bigger
+-sorting words or characters returns array sorted lexicographically 
+A to Z
+a to z
+0 to 9
+
+
+
+
+
+
+
+
+
+
+

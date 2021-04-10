@@ -1,0 +1,107 @@
+
+
+3/14/2021 - Object-Oriented Programming 2
+Learning Object – Class
+
+
+Class -> It is a blueprint or template that we create objects from.
+
+Object -> Instance of a class.
+
+Class members:
+1.Instance variables - fields -> attributes or characteristics
+
+2.Methods - functions
+
+3.Constructor
+
+Random r = new Random();
+Car tesla = new Car();
+
+4.Blocks
+
+{
+	//some code
+}
+
+if(){
+	
+}
+
+switch(enum){
+	
+}
+
+for(){
+	
+}
+
+final keyword with instance variables: 
+2 RULES to make some instance variables final
+1. You need to give it a value
+2. final keyword should come in front of the field
+
+-> final instance variables cannor be changed anywhere as it is final
+
+
+static keyword with instance variables:
+-static keyword is making fields more accessible
+-static fields can be accessed immediately with class name
+ClassName.   -> will show the static members
+
+
+
+Create a class of "Animal"
+Create instance variables for Animal class as below:
+
+String color
+String family
+String gender
+String size
+boolean carnivore   -> lion - tiger
+boolean herbivore   -> cow
+boolean omnivore    -> bears
+
+
+Create a AnimalTest class and create 3 objects
+Define all atributes for those objects
+
+
+CLASS METHODS
+-A method is a block of code that performs a specific task
+toLowerCase() -> converts all letters to lowercase
+charAt(index) -> return char at given index 
+
+-Methods are functions or behaviors of the class
+-If we have Animal as class, move, sleep, eat would be functions of that class
+
+if we have Phone as class, ring, call, playingMusic, dial would be functions of that class
+
+-There are void and return types of methods
+
+Syntax:
+accessModifier returnType methodName(){ 
+	// method body
+ }
+
+public void printName(String name){
+	System.out.println(name);
+}
+
+
+Creating Methods
+-Is it going to return something or not
+-Is it taking any parameter - argument
+-Is it static or not
+
+
+
+
+
+
+
+
+
+
+
+

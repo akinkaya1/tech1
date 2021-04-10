@@ -1,0 +1,99 @@
+
+
+
+3/30/2021 - Object-Oriented Programming 8
+OOP Principles - Inheritance
+
+
+RECAP:
+
+Access modifiers: by using those, we define scope of accessibility to our class members
+
+1.public
+2.protected
+3.default
+4.private
+
+OPP PRINCIPLES
+1.Encapsulation: increase privacy by doing fields private and accessing them public getters and setters
+2.Inheritance (parent-child)
+3.Abstraction
+4.Polymorphism
+
+How we achieve encapsulation?
+1.Make instance variables private
+2.Create public getters and setters
+
+
+2. INHERITANCE
+-Creating relation bt classes by making parent-child relationship
+-This will enable child class to use parent class members and not duplicate the code
+-The inheritance can happen with the help of extends keyword
+
+Parent class -> super class
+Child class -> sub class
+
+
+Child extends Parent extends GrandParent
+Cat extends Animal
+Dog extends Animal
+
+IPhone extends Phone
+Samsung extends Phone
+
+BMW3Series extends BMW extends GermanCar extends Car extends Vehicle extends Transportation
+
+-BMW3Series inherits all fields and method in BMW, GermanCar, Car, Vehicle and Transportation Classes
+
+-Car inherits all fields and methods of Vehicle and Transportation Classes
+
+NOTE: Object class is parent of every class in Java
+
+JavaProgrammer extends Programmer extends Human
+
+AndroidProgrammer extends Programmer extends Human
+
+-A child can have only one parent (mother) - So, a sub class can extends to ONLY one super class
+-A parent (mother) can have multiple child - So, a super class can be extended by multiple sub classes
+
+
+-final class => it means, this class cannot be a parent(super) class. NO class can extend to this class.
+
+
+
+METHOD OVERRIDING
+-Overriding ONLY happens in case of inheritance
+-It is implementing a new body for the parent class methods in the child class
+-@Override annotation is always preferred to be there when overriding (it is optional but kind of unwritten rule)
+-Overloading is creating a new method which has same name with another method but different arguments
+
+
+
+Rules of Method Overriding
+-Method signature should be same (parameters and name) - only body can change
+-Return type should be same if there is any 
+-Access modifier should be same or MORE ACCESSIBLE
+-@Override annotation is highly recommended to use in case of overriding but it is not mandatory
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

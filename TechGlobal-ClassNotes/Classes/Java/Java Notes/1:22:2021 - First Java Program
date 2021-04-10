@@ -1,0 +1,129 @@
+
+
+1/23/2021 - First Java Program
+
+-JAVA Architecture
+
+-Java is a programming language
+-Syntax is the grammar of programming languages
+-Java is consist of JDK, JRE, JVM (JIT in JVM)
+-Java has JVM and it makes it platform independent
+
+-Write Once Run Everywhere (WORE)
+
+JDK = JRE + JVM + Development tools (javac and more tools)
+JDK stands for Java Development Kit
+	javac = java compiler
+	javac is used to check syntax and give feedbacks
+
+JRE = JVM + Libraries
+JRE stands for Java Runtime Environment
+
+JVM stands for Java Virtual Machine
+JVM makes Java platform-independent
+JVM takes Byte code and turns it into machine code (binary code)
+JVM has JIT (Just In Time Compiler)
+JVM itself is platform - dependent
+JIT is used to make execution faster
+
+
+-Source code -> is the code that written by using any programming language
+-Byte code -> it is specific Java, and it is compiled source code
+-Binary Code -> Machine(Computer) Language
+
+
+
+Source code -> compiled by javac -> Byte Code -> JVM -> Binary Code
+
+javac compiles .java file and returns .class file
+.class file has the Byte Code
+
+EX/ MyFirstProgram.java (Source code)-> javac -> MyFirstProgram.class (Byte code) -> java -> Result of the program on my screen
+
+javac -> compiles the source code
+java -> runs the compiled code
+
+
+
+COMMAND LINE
+-Computer - is a device (machine) that takes instructions (commands) and returns some results
+-Command line to give computer some instructions
+-Command line is an area that we can use to give commands to computer
+-Terminal for MAC machines
+-Command Prompt (cmd) for Windows Machine - Powershell
+
+NOTE - command+space for MAC will bring seacrh bar
+
+
+COMMON COMMANDS
+1. cd anyDirectoryName -> change directory
+2. cd .. -> go back to parent directory
+3. cd / -> go back to Home Directory
+4. clear (for MAC) / cls (for Windows) -> clears command line
+   clear does not affect your working directory (where you are)
+5. pwd -> print working directory -> tell me where I am
+6. ls (for MAC) / dir (for Windows) -> gives us a list of directories in the current directory
+7. mkdir anyDirectoryName-> make directory, this is  used to create directory
+	DIRECTORY = FOLDER
+8. rm -rf anyDirectoryName (rd for windows) -> remove directory, this will delete directory
+
+
+NOTE = if the directory name has multiple words, the we use "" and we put directory name inside those "" (double quotation)
+
+
+
+
+NOTE = It does not matter what machine you use right now. We have to know both!!!
+
+IntelliJ
+-Created a new project and we selected Java
+-we name the project name - package name - class names all one word
+-we use camelCase method - this is the proper way
+
+-package name could be anything but it is mostly preferred to start with lowercase / myFirstProgram / techGlobalStudents / newWorld
+
+-class naming: it always start with uppercase and follows camelCase
+-Ex/ HelloWorld / MyFirstProgram
+
+
+main() method
+-it is the starting of a java program
+-without main() method, we can not run any code
+
+method is a java component to do some specific job, function
+println() -> prints whatever given to it
+
+
+SHORT-Cuts
+
+main + enter -> is going to type main() method
+sout + enter -> is going to type System.out.println();
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

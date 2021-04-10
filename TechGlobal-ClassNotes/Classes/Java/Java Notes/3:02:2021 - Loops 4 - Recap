@@ -1,0 +1,61 @@
+
+
+3/02/2021 - Loops 4 - Recap
+
+RANDOM CLASS
+-Random is a Java class that allows us to create random data
+-To be able to use random, I need to create an OBJECT of Random class first.
+
+- "new" keyword in Java is always used to create any object like Scanner, Date, Random, Wrapper classes
+
+EX
+Integer age = new Integer(45); // int age = 45;
+
+1. HOW TO CREATE A RANDOM CLASS OBJECT
+
+Random numberGenerator = new Random();
+
+int firstNumber = numberGenerator.nextInt(26); // one number that is between 0 and 25 (0 and 25 are included)
+
+int secondNumber = numberGenerator.nextInt(26);
+
+2. Find out which random number is greatest and which is smallest
+A. find greatest and smallest by using if else statement
+int greatest;
+int smallest;
+
+if(firstNumber < secondNumber){
+	greatest = secondNumber;
+	smallest = firstNumber;
+}
+else{
+	greatest = firstNumber;
+	smallest = secondNumber;
+}
+
+B. find greatest and smallest by using ternary operator
+Ternary operator
+int greatest = firstNumber < secondNumber ? secondNumber : firstNumber;
+
+int smallest = firstNumber > secondNumber ? secondNumber : firstNumber;
+
+B. find greatest and smallest by using Math max and min methods
+int greatest = Math.max(firstNumber, secondNumber);
+int smallest = Math.min(firstNumber, secondNumber);
+
+
+3. loop all the numbers between those
+
+for(int i = smallest; i <= greatest; i++){
+	
+}
+
+
+int number = 12321;
+String s = String.valueOf(number);
+
+
+
+
+
+

@@ -1,0 +1,139 @@
+
+
+1/31/2021 - Java Arithmetic Operators & Scanner
+
+Addition
++ sign is used
+EX/ 3+5, 2+2
+
+
+Subtraction
+- sign is used
+EX/ 5-2
+
+
+Multiplication
+* sign is used
+EX/ 3*5 = 15
+EX/ 125*8 = 1000
+EX/ 16*9 = 144
+
+
+Division
+/ sign is used
+EX/ 10/2 = 5
+EX/ 95/5 = 19
+EX/1250/50 = 25
+
+
+Remainder or Modulus
+% sign is used
+EX/ 20 % 8 =>    20 = 8 * 2 + 4   -> 4 is the remainder
+EX/ 1000 % 300 => 1000 = 300 * 3 + 100 -> 100 is the remainder
+
+EX/ 15 % 20 => 15 = 20 * 0 + 15 -> 15 is the remainder
+
+NOTE: if the first number less than second number, then the remainder is equal to first number
+
+EX/ 154 % 200 => 154 = 200 * 0 + 154 -> 154 is the remainder
+
+
+EX/ 20 % 20 => 20 = 20 * 1 + 0 -> 0 is the remainder
+EX/ 5 % 5 => the raminder is 0
+
+NOTE: if the first number equals to second number, then the remainder will be zero 
+
+
+How we are going to calculate below statements?
+
+int number1 = 5*3+6-8/2; 
+number1 = 17;
+
+5*3 = 15
+
+15+6-8/2
+
+8/2 = 4
+
+15+6-4 = 17
+
+EX/ 10-5+8 = 13
+EX/ 10*6/2 = 30
+
+
+EX/ 5+3*2 = ?
+
+Solution steps
+-Do multiplication first => 3*2 = 6
+-Put 6 instead of 3*2 in your function => 5+6=11
+
+
+EX/ (5+3)*2 = 16
+
+
+
+NOTES:
+
+In such function or calculation, there are rules to follow
+-Do calculation in the parentheses first
+-Do multiplication or division if there are any
+-addition and subtraction comes as last
+
+
+int number1 = 5*(3+6)-8/2; //41
+
+
+Steps to find the result
+-First is parentheses => 3+6 = 9
+-Put this value of 9 instead of (3+6) => 5*9-8/2
+-Do multiplication or division if there are any
+-Multiplication => 5*9 = 45
+-Division => 8/2 = 4
+-Put those values instead of multiplication or division => 45-4
+-Find the result => 45-4 = 41
+
+
+
+
+SCANNER
+-Scanner is the class used for reading data from  user
+-To be able to use it, we should create an object of it
+-It should be imported
+
+CREATING A Scanner object
+Scanner scanner = new Scanner(System.in);
+
+NOTE: new keyword is used to create a new object
+NOTE: without new keyword I can't create new Object
+
+
+We also have to import the Java classes that we are going to use in our programs
+
+EX/ import java.util.Scanner;
+
+NOTE: your import statements should always be bt package and class
+
+import java.util.Scanner; => this will import Scanner class
+import java.util.*; => this will import all the classes inside the util package
+
+
+===> next() method
+
+this is method is used to read next string from user
+
+Scanner scanner = new Scanner(System.in);
+System.out.println(“Please enter a string”);
+String str = scanner.next();
+
+
+
+
+
+
+
+
+
+
+
+
+

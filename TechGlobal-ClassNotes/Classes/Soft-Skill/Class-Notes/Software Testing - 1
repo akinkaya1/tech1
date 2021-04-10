@@ -1,0 +1,42 @@
+
+Software Testing - 1
+3-8-2021 
+
+KT - Knowledge Transfer
+
+Dry Run - Getting ready for the Demo with the team
+
+UI- User Interface
+Scaled Agile means that there are lots of team in the company. Like more thatn 7 or 10 teams. It is not easy to manage all these teams with only Agile Methodology. We need to have better approach like SAFe(Scaled Agile Framework).
+
+PROGRAM ROLES
+Product Management 
+	responsible for ‘what gets built,’ as defined by the Vision, Roadmap, and new features in the Program Backlog. 
+	work with the customers and stake holders. 
+	collects the requirements and feedbacks from the customers and stakeholders. 
+	make sure that Product Owners understand the requirements.
+Release Train Engineer (RTE) 
+	a servant leader
+	facilitates program execution, impediment removal, risk and dependency management, and continuous improvement
+System Architect/Engineer
+	an individual or team 
+	defines the overall architecture of the system.
+	work at a level of abstraction above the teams and components 
+	definesefine Nonfunctional Requirements (NFRs), major system elements, subsystems, and interfaces.
+Business Owners
+	Key stakeholders of the ART
+	have ultimate responsibility for the business outcomes of the train
+	provide feedbacks to the development teams
+	Not responsible to write the features or acceptance criteria
+System Teams 
+	assist in building and maintaining development
+	assist continuous integration
+	assist test environments
+
+	Verification: testing the requirements and documantion if the they make sense and good to go.
+
+	Validation: we are checking the actual aplication if it matches with the requirements
+
+
+
+

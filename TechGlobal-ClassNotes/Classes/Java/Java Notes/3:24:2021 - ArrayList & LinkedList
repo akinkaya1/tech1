@@ -1,0 +1,155 @@
+
+
+
+3/24/2021 - ArrayList & LinkedList
+
+
+-What is differences bt Array and ArrayList?
+-Array has fixed size and we cannot change it once it is declared but ArrayList is dynamiz considering size. 
+-We can add or remove elements from ArrayList
+-Array works both with object (reference types) and primitive types but ArrayList works only with reference types (objects)
+-So, Wrapper classes (object representation of primitives) can be used in ArrayList
+-We can get and do actions on array elements using array[index], but we have bunch of methods to manipulate data in ArrayList
+-array.length will return the length of array while arrayList.size() will return the size of ArrayList
+
+Syntax:
+int[] numbers =  new int[5]; // has to have a size
+numbers[0] = 10;
+numbers[3] = 15;
+[10, 0, 0, 15, 0]
+
+List<String> names = new ArrayList<>();
+ArrayList<Integer> numbers = new ArrayList<>();
+numbers.add(12);
+numbers.add(20);
+numbers.add(2, 34);
+
+numbers.add(5, 65); // IndexOutOfBoundException
+
+remove(index), remove(Object), clear(), removeAll(Collection),
+addAll(Collection), get(index), indexOf(Object), lastIndexOf(Object), contains(Object), size(), set(index, Object)
+
+String s = "Lionel";
+
+s.charAt(0); -> this will get the char at index of zero
+
+
+List<Character> chars = new ArrayList<>();
+
+        chars.add('a');
+        chars.add('b');
+        chars.add('c');
+        chars.add('a');
+        chars.add('b');
+
+        chars.get(0); -> this will get the element at index of zero
+
+
+
+You are storing some data in a collection 
+(whether ArrayList or LinkedList)
+
+1.Memory
+2.Performance
+
+??? Are we going to add or remove a lot
+YES -> go with LinkedList because it is faster to add and remove elements compared to ArrayList
+
+NO -> go with ArrayList because it is allocating less memory compared to LinkedList
+
+
+How to convert an Array into ArrayList?
+
+-Method 1: Conversion using loops
+MANUAL WAY
+-Create an array and put elements in it
+-Create an ArrayList
+-Loop through each element in the array and add them to ArrayList
+
+
+-Method 2: Conversion using Arrays.asList(Collection)
+We can convert array to ArrayList using Arrays.asList(Collection) method.
+This method takes an array as an argument and converts it to an ArrayList
+
+Syntax:
+ArrayList<T> arrayList= new ArrayList<T>(Arrays.asList(arrayName));
+
+-Method 3: Collections.addAll method
+We can convert array to ArrayList using Collections.addAll(arrayList, array) method.
+
+This method takes 2 parameters (arrayList and array) and converts given array into the ArrayList
+
+Syntax:
+ArrayList<T> arrayList= new ArrayList<T>();
+Collections.addAll(arrayList, arrayName);
+
+NOTE: T stands for DataType (ObjectType) 
+EXAMPLE: String, Integer, Character
+
+
+
+How to convert an ArrayList to an Array?
+
+-Method 1: Conversion using loops
+MANUAL WAY
+-Create an arrayList and add elements in it
+-Create an array
+-Loop through each element in the ArrayList and put those into array
+ 
+-Method 2: Conversion using arrayList.toArray() method
+We can convert arrayList to array using toArray() method.
+Syntax:
+Object[] array = arrayList.toArray();
+
+
+How to loop all elements of ArrayList or LinkedList?
+
+-Method 1: using loops (fori, for each)
+MANUAL WAY
+
+-Create an arrayList and add elements in it
+-Loop through each element in the ArrayList and print them
+ 
+-Method 2: using Iterator and while loop
+Syntax:
+Iterator iterator = arrayList.iterator(); 
+Iterator<T> iterator = arrayList.iterator();
+
+
+while(iterator.hasNext()){
+	System.out.println(iterator.next());
+}
+
+
+Iterator --> It is a pin that iterates through the elements of collection.
+
+Steps to implement Iterator
+1. Create Iterator pin for the collection.
+Iterator<String> it = names.iterator();
+
+it.hasNext() --> returns true if iterator pin has next element, returns false if iterator pin is already in the end and has no next element.
+
+??? When to use Iterator over for each loop?
+- When you want to run through the elements and do the modification such as adding or removing from the original collection.
+- Loop is READ ONLY
+- Iterator is READ/WRITE
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

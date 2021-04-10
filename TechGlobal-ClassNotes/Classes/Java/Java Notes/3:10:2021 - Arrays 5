@@ -1,0 +1,61 @@
+
+
+
+3/10/2021 - Arrays 5
+
+-sort() method
+-Arrays.sort(array); //ordered
+-it is used to sort an array
+-if array is int array, then it will be sorted from smallest to biggest
+-if array is String array, then it will be sorted alphabetically
+
+-binarySearch(array, key)
+-it used to search an element in an array
+-it will return an int which the index of key found
+-the result will be negative if key is not found
+-if the result zero or positive, then it means the key is found and the index returned is the position-location of that key
+
+-MULTI-DIMENSIONAL ARRAY
+-Array inside the array
+-It is preferred to create tables-matrixes
+-Syntax:
+
+2-dimensional array
+int[][] numbers = {{1,2,3}, {1,2}};
+
+numbers[0][2] = 3;
+
+System.out.println(Arrays.toDeepString(numbers)); // [[1,2,3], [1,2]]
+
+for(int i = 0; i < numbers.length; i++){
+	for(int j = 0; j < numbers[i].length; j++){
+	 System.out.println(numbers[i][j]);
+	}
+}
+1
+2
+3
+1
+2
+
+
+-split(regex) method
+-It is a String class method
+-this method is used to split a String and put values as elements into an Array
+
+-toCharArray() method
+-It is a String method
+-this method is used to convert a String into a char array
+-it returns an array
+
+
+
+
+
+
+
+
+
+
+
+

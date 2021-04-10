@@ -1,0 +1,44 @@
+
+
+2/24/2021 - Loops 1
+
+NOTES to find first and the last words in a String
+
+EX/ 
+String str = " TechGlobal teaches Java ";
+
+String firstWord = str.substring(0,str.indexOf(" "));
+
+int indexOfFirstSpace = str.indexOf(" "); // 10
+
+String lastWord = str.substring(str.lastIndexOf(" ") + 1);
+
+int indexOfLastSpace = str.lastIndexOf(" ") + 1;
+
+
+HOW TO DEBUG:
+1. First, define the line that you will start debugging
+   Put a breakpoint (red circle next to the line)
+2. Watch you program step by step
+
+
+
+WHY WE NEED LOOPS?
+-Loops are used to run a block of code again and again
+-Each run (circle or loop) is called as iteration (times)
+-Loops in Java are used to execute a block of code repeatedly
+-Loops will run until a termination condition is met
+-Loops are helpful to eliminate duplicating codes and time saving
+
+Syntax:
+
+for(initialization; termination condition; change){
+	//code block to be executed
+}
+
+NOTES:
+-There are 3 steps to follow to create a for loop
+1. The loop must have initialization point
+2. There should be a termination point (condition) where loop ends
+3. Change – increment or decrement value
+

@@ -1,0 +1,101 @@
+
+
+
+
+3/28/2021 - Object-Oriented Programming 7
+OOP Principles - Encapsulation
+
+Class: it is a blueprint or template that allows us to create many objects
+Student class
+student1, student2, stundent1000 of objects of Student class
+
+Object: Instance - it is an instance of a class
+
+Class Members:
+1.Instance variables - fields -> atributes, features of an object
+Table -> size, height, width, color, material, isAdjustable
+
+2.Methods - functions-> behavior of the objects
+Table -> stands(), adjusts(), 
+	void and return types of method
+
+3.Constructors -> special methods that allows us to create objects
+
+4.Blocks -> static and non-static(instance) blocks
+
+
+ACCESS MODIFIERS
+-They are used to define the scope of access level for the class members
+
+-Class itself CAN ONLY BE public or default
+public class -> means accessible anywhere in the project
+default class -> means accessible only in the same package
+
+NOTE: a class CAN NEVER BE private or protected
+
+NOTE: default class CAN NOT BE used in any other package regardless of sub or parent packages
+
+4 TYPE OF ACCESS MODIFIER
+1.public
+2.protected
+3.default
+4.private
+
+CLASS MEMBERS and their accessibility
+-Blocks cannot implemented with any access modifiers
+-Fields, methods and constructors can be private, default, protected and public
+-If they are public, then it means, it can be used anywhere in the project
+-if they are protected or default, then it means, they are package protected and can be used only in the same package
+-if they are private, then it means, it can be used only in the same class
+
+What is the difference bt default and protected access modifiers?
+-Both of them are package private - can be used only in the same package
+-BUT, there are cases protected members can be used outside of the package as well
+-Inheritance can allow those protected members to be used by child (sub) classes
+
+We can give access class methods, fields and constructors at 3 access levels
+1.Only within the class: 
+private keyword is used to make fields and methods to be accessible only within the class
+
+2. Only within the package protected and default keywords are used to make fields and methods to be accessible only within the same package HOWEVER, protected can be used outside of the package as well in case of inheritance
+
+3. Anywhere within the project public keyword is used to make fields and methods to be accessible anywhere in the project
+
+
+
+Non-Access Modifiers - they do not control access level, but provides some other functionalities
+
+final keyword
+-A field can be final -> final field must be initialized, and this value cannot be changed
+-A method can be final -> this method cannot be overridden (it can still be overloaded)
+-A class can be final -> this class can not be extended
+-Constructors cannot be final
+
+static keyword
+-A field can be static -> static field means, it belongs to class can be called with className
+-A method can be static -> static method means, it belongs to class can be called with className
+-A class cannot be static -> It is better to say outer class cannot be static (There can be static inner classes)
+-Constructors cannot be static
+
+
+OOP CONCEPTS
+1.Encapsulation
+2.Inheritance
+3.Abstraction (Abstract Class & Interface)
+4.Polymorphism
+
+ENCAPSULATION
+-It is only related to fields (instance variables)
+-We need it to protect instance variables from being accessed directly
+
+
+
+
+
+
+
+
+
+
+
+

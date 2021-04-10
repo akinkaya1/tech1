@@ -1,0 +1,78 @@
+
+
+
+3/27/2021 - Java Memory Management
+
+-Stack and Heap (String Pool)
+-Garbage Collector
+-Mutable and Immutable objects
+
+JAVA MEMORY MANAGEMENT
+-Stack: is where all the local variables, methods, object references are stored.
+
+-Heap: is where objects are stored and String Pool
+STRING POOL: is where all String values are stored
+They are the Strings not created with new keyword
+
+NOTE: If you create a String with new keyword, it is a new object and will not be store inside pool but in the heap as an object
+
+GARBAGE COLLECTION
+-Garbage in Java: it is the objects that loss their references.
+-Garbage Collection: it is destroying objects that loss their references.
+-Garbage Collector: does the garbage collection
+
+NOTES:
+-Garbage Collection applies only to reference types (objects)
+-Garbage Collection happens automatically (implicitly) in Java
+-However, you can also do it explicitly
+-2 ways to call garbage collector explicitly
+	System.gc();
+	Runtime.getRunTime().gc();
+
+-finalize() method can be used to do proper cleaning before garbage collection
+
+-finalize() is a method belongs Object class, and we can override it. 
+
+
+
+MUTABLE-IMMUTABLE
+-Mutable: it means when we created an object, we can change it
+-Immutable: it means once we created an object, we cannot change it
+
+EXAMPLES:
+Mutable: StringBuffer, StringBuilder
+Immutable: String
+
+StringBuffer and StringBuilder
+-These are 2 Java classes that are located in java.lang package
+-They are kind of mutable type of String
+
+-StringBuffer and StringBuilder has a lot of useful methods to manipulate data like append(), insert(), delete(), reverse()
+
+-StringBuffer and StringBuilder can be converted to String by toString() method
+
+How to create StringBuffer and StringBuilder
+StringBuffer sb = new StringBuffer(“anyString”);
+StringBuilder sb = new StringBuilder(“anyString”);
+
+StringBuffer vs StringBuilder
+-StringBuffer is thread safe, that is why it is slower compared to StringBuilder
+-StringBuilder is faster compared to StringBuffer
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

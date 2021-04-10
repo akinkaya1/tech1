@@ -1,0 +1,70 @@
+
+
+1/28/PROJECT
+BEFORE STARTING FOR TASKS BELOW
+-Create a new package called as "projects"
+-Create a new class called as "Project1"
+-NOTE: complete all tasks in Project1 class
+-NOTE: give proper names for all of your variables
+-NOTE: feel free to use comments for your codes for explanations 
+
+
+TASK-1
+-Please write a statement that returns the paragraphs below
+-NOTE: it should be in ONE statement only
+-NOTE: do not miss spaces at the beginning of paragraphs and do not forget the new lines as well as empty line between 2 paragraphs
+
+    Java is an "object-oriented" programming language and a platform
+that helps professionals create complete applications.
+
+    Java is also the most popularly used programming
+language for "Selenium" across the world.
+
+
+TASK-2
+-Please write one statement for each paragraph below
+-NOTE: every paragraph should be in a different statement
+-NOTE: do not miss spaces at the beginning of paragraphs and do not forget the new lines as well as empty line between 2 paragraphs
+
+    TechGlobal is motivated to help individuals to start their
+careers in IT as Software Development Engineers in Test.
+It requires no IT experience and welcomes all individuals from different backgrounds.
+
+    We are a group of experienced Software Development Engineers
+doing automation testing for well-known US companies.
+Our mission is to provide you with real-world industry-level experience and SDET training to guide you in a way that makes you a competitive candidate to achieve your dreams.
+Through 6 months of compact course, you will be working collaboratively with highly qualified instructors and mentors.
+
+
+TASK-3
+-Create 3 variables to store your group members age 
+-First, declare those variables only
+-Then, assign values to each
+-Finally, print them using println() method ONLY in 1 statement.
+NOTE: Use concatenation and give proper explanation for each variable
+
+
+TASK-4
+-For this Task to be completed, you first need to find a name for your group
+-Store each character of your group name into different variables and print them using print() method
+-For this tasks you have to use print() method for each character of your group name
+
+NOTE; There will be a trick bt Task-4 to Task-5, I am leaving it to you :)
+
+
+TASK-5
+-Create a boolean areAllTeamMembersAtSchool
+-Assign true to this variable if all your team members are at campus today
+-Assign false to this variable if any of your team members are joining online today
+-Print variable value with a proper message using println() method
+EX/ All my team members are at school today: true
+
+
+TASK-6
+-Create a boolean  isWeatherNiceToday
+-Assign true to this variable if it is not snowing today
+-Assign false to this variable if it is snowing today
+-Print variable value with a proper message using println() method
+-EX/ Weather is nice today: false
+
+

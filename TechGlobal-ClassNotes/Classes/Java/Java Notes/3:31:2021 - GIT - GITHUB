@@ -1,0 +1,44 @@
+
+
+3/31/2021 - GIT - GITHUB
+
+Git is the cloud system
+GitHub is kind of an app that enable us to use git
+
+GitHub or GitLab or BitBucket or Azure DevOps
+
+Repository = project folder (tech1)
+
+pushing code -> you send your changes and they will also be saved in the cloud
+
+git add .
+git commit -m "Volkan's Loop"
+git push
+
+Create pull request
+
+
+VCS -> Version Control System (Git)
+
+WHEN YOU GET A JOB AND ON YOUR FIRST DAY
+-Open a terminal (cmd)
+-run java -version command to check if Java is downloaded on your machine
+-run git --version to check if GIT is installed on your machine
+
+-make sure that you have other set-ups - VPN
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

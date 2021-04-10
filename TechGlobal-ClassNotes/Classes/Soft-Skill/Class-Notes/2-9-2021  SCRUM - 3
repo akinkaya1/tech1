@@ -1,0 +1,95 @@
+2-9-2021  SCRUM - 3
+
+Reminders:
+
+Please call ourselve; 
+	-Quality Engineer, 
+	-Qualitly Software Engineer
+	-SDET ( Software Development Engineer in Test)
+
+-Please print and hang on the wall the charts, tables, or any text that will help you to repeat.
+
+-Please check your goals and vision and revise them. Make sure you put them down.
+
+-Make sure improve yourself continuously
+
+-Please do exercises and straching 
+
+
+What is the role of SDET: Validationg or Certifying that actual product is matching with the requirements.
+
+There are two thigs for SDET
+
+Verification: You are reading the documantation and you verify that flow makes sense. this happens before the development
+
+Validation: You are testing the actual product and certifying that it matches the requirements.
+
+INTERVIEW QUESTION
+What is Agile Manifesto?
+
+Agile manifesto defines 4 key points:
+
+i. Individuals and interactions over process and tools
+ii. Working software over comprehensive documentation
+iii. Customer collaboration over contract negotiation
+iv. Responding to change over following a plan
+
+How many  team members in your team?
+
+In my team we are 11 of us:
+	-Product Owner (Business Analist)
+	-Scrum Master
+	-7 developers: 
+		3 of them are backend developers
+		4 of the UI(Front-end) developers.
+	- 2 SDETs	
+
+
+
+There are two ways to write the acceptance criteria:
+
+1. Traditional way: Verify that user is able login
+
+2. BDD (Bahavior Driven Development)
+Gherkin statement (Given, When, Then)
+
+Given: Initial condition
+When:  Action
+Then:  Result
+
+There is a rule when we give points to the stories
+that is the Fibonacci sequence 1, 2, 3, 5, 8, 13, 21
+
+In the Retro Meeting
+-what went well
+-what went wrong
+-what to improve
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
