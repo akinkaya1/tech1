@@ -1,0 +1,7 @@
+
+
+
+
+Given user is on TechGlobal School Application
+When user clicks on the "CONTACT" section in the header
+Then user is navigated to the "CONTACT" section

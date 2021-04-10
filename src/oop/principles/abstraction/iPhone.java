@@ -1,6 +1,6 @@
 package oop.principles.abstraction;
 
-public class iPhone extends Phone{
+public class iPhone extends Phone implements Television, Bluetooth{
     @Override
     public void call() {
         System.out.println("iPhone is calling");
@@ -34,5 +34,20 @@ public class iPhone extends Phone{
     @Override
     public void reliable() {
         System.out.println("iPhone is reliable");
+    }
+
+    @Override
+    public void haveTV() {
+        System.out.println("iPhone has TV");
+    }
+
+    @Override
+    public void haveChannels() {
+        System.out.println("iPhone TV has channels");
+    }
+
+    @Override
+    public boolean haveBluetooth() {
+        return true;
     }
 }

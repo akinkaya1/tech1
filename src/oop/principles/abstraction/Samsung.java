@@ -1,6 +1,6 @@
 package oop.principles.abstraction;
 
-public class Samsung extends Phone{
+public class Samsung extends Phone implements Television, Bluetooth{
 
     @Override
     public void call() {
@@ -36,5 +36,20 @@ public class Samsung extends Phone{
     @Override
     public void reliable() {
         System.out.println("Samsung is reliable");
+    }
+
+    @Override
+    public void haveTV() {
+        System.out.println("Samsung has TV");
+    }
+
+    @Override
+    public void haveChannels() {
+        System.out.println("Samsung TV has channels");
+    }
+
+    @Override
+    public boolean haveBluetooth() {
+        return false;
     }
 }

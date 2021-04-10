@@ -10,12 +10,10 @@ public abstract class Device {
 
     }
 
-
     private String name;
     final static String color = "White";
     protected boolean move;
     public String material;
-
 
     public abstract void reliable();
 }
